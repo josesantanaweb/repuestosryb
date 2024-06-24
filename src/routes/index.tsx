@@ -1,4 +1,4 @@
-import { HomePage } from '@/pages'
+import { AboutPage, HomePage, WorkPage } from '@/pages'
 
 export const ROUTES = [
   {
@@ -9,6 +9,7 @@ export const ROUTES = [
   {
     name: 'Quiénes somos',
     path: '/quienes-somos',
+    element: <AboutPage />,
   },
   {
     name: 'Catálogo',
@@ -17,6 +18,7 @@ export const ROUTES = [
   {
     name: 'Trabaja con nosotros',
     path: '/proyectos',
+    element: <WorkPage />,
   },
   {
     name: 'Contacto',

@@ -3,5 +3,5 @@ import React from 'react'
 
 export { HomePage }
 
-export const AppsPage = React.lazy(() => import('@/pages/apps'))
-export const ProjectsPage = React.lazy(() => import('@/pages/proyects'))
+export const AboutPage = React.lazy(() => import('@/pages/about'))
+export const WorkPage = React.lazy(() => import('@/pages/work'))

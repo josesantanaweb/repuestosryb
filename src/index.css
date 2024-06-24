@@ -34,15 +34,15 @@ body {
 }
 
 .link {
-  @apply p-8 text-gray-400 uppercase transition-all border-b-4 border-transparent cursor-pointer hover:text-primary hover:font-semibold hover:bg-gray-100 hover:border-primary;
+  @apply p-8 text-sm text-gray-400 uppercase transition-all border-b-2 border-transparent cursor-pointer hover:text-primary hover:font-semibold hover:bg-gray-100 hover:border-primary;
 }
 
 .link-active {
-  @apply font-semibold bg-gray-100 border-b-4 text-primary border-primary;
+  @apply font-semibold bg-gray-100 border-b-2 text-primary border-primary;
 }
 
 .main {
-  height: calc(100vh - 5.75rem);
+  height: calc(100vh - 5.5rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,4 +66,22 @@ body {
   height: 35rem;
   background: url('../public/images/why/why-choose-us.png') no-repeat;
   background-size: cover;
+}
+
+.slick-dots {
+  bottom: -35px;
+}
+
+.slick-dots li {
+  width: 15px;
+  height: 15px;
+}
+
+.slick-dots li button:before {
+  font-size: 0.875rem;
+  color: #012C72;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #012C72;
 }

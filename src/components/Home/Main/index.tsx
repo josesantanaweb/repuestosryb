@@ -25,7 +25,7 @@ const Main = () => {
     <main className="main">
       <div className="banner"></div>
       <div className="relative z-10 flex flex-col items-center justify-center">
-        <img src="/images/logo.svg" alt="logo" className="w-[29rem] mb-20" />
+        <img src="/images/logo.svg" alt="logo" className="w-[27rem] mb-20" />
         <h1 className="text-[2.75rem] text-secondary text-center font-bold font-kanit italic mb-5 drop-shadow-[0_4px_4px_rgba(203,0,13,0.20)]">
           ¡Somos tu mayorista de confianza!
         </h1>
