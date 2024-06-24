@@ -30,6 +30,14 @@
 }
 
 body {
-  font-family: 'iCiel', sans-serif;
+  font-family: "Outfit", sans-serif;
   background-color: white;
+}
+
+.link {
+  @apply px-6 py-8 text-gray-400 uppercase transition-all border-b-4 border-transparent cursor-pointer hover:text-primary hover:font-medium hover:bg-gray-100 hover:border-primary;
+}
+
+.link-active {
+  @apply font-medium bg-gray-100 border-b-4 text-primary border-primary;
 }

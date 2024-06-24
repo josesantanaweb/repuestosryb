@@ -1,57 +1,47 @@
-import { IoIosClose, IoIosSearch } from 'react-icons/io'
-import { Link } from 'react-router-dom'
+import { LINKS } from '@/data/menu'
+import { BiLogoInstagram, BiLogoWhatsapp, BiPhone } from 'react-icons/bi'
 
-const MENU_DATA = [
-  {
-    name: 'Home',
-    url: '/',
-  },
-  {
-    name: 'Aplicaciones',
-    url: '/aplicaciones',
-  },
-  {
-    name: 'Tanques',
-    url: '/tanques',
-  },
-  {
-    name: 'Proyectos',
-    url: '/proyectos',
-  },
-  {
-    name: 'Contacto',
-    url: '/contacto',
-  },
-]
+import { NavLink as RouterNavLink } from 'react-router-dom'
+
+interface NavLinkProps {
+  to: string
+  children: React.ReactNode
+}
+
+const NavLink = ({ to, children }: NavLinkProps) => {
+  return (
+    <RouterNavLink to={to} className={({ isActive }) => (isActive ? 'link link-active' : 'link')}>
+      {children}
+    </RouterNavLink>
+  )
+}
 
 const Header = () => {
   return (
-    <header className="">
-      <div className="flex items-center justify-center bg-slate-200">
-        <div className="container flex justify-between p-3">
-          <p className="text-sm text-gray-800 text-end">Tel: 314 245 2758 gerencia@maxxtank.com.co Contáctanos</p>
-          <div className="cursor-pointer">
-            <IoIosClose size={24} />
-          </div>
-        </div>
-      </div>
-      <div className="flex justify-center py-10">
+    <header className="relative border-b border-gray-200">
+      <div className="flex justify-center">
         <div className="container flex items-center justify-between mx-auto">
-          <img src="/images/logo.svg" className="w-[120px]" />
-          <nav className="flex gap-4">
-            {MENU_DATA.map((item, index) => (
-              <Link
-                key={index}
-                to={item.url}
-                className="px-4 text-gray-800 cursor-pointer hover:text-gray-600 hover:font-bold"
-              >
-                {item.name}
-              </Link>
-            ))}
-          </nav>
-          <span className="text-gray-800">
-            <IoIosSearch size={24} />
-          </span>
+          <div className="flex items-center gap-20">
+            <img src="/images/logo.svg" className="w-[120px]" />
+            <nav className="flex gap-4">
+              {LINKS.map((item, index) => (
+                <NavLink key={index} to={item.url}>
+                  {item.name}
+                </NavLink>
+              ))}
+            </nav>
+          </div>
+          <div className="flex items-center gap-5">
+            <span className="text-primary">
+              <BiLogoInstagram size={24} />
+            </span>
+            <span className="text-primary">
+              <BiLogoWhatsapp size={24} />
+            </span>
+            <span className="text-primary">
+              <BiPhone size={24} />
+            </span>
+          </div>
         </div>
       </div>
     </header>
