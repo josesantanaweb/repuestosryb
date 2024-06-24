@@ -1,3 +1,4 @@
+import Footer from '@/components/Common/Footer'
 import Header from '@/components/Common/Header'
 import { Suspense } from 'react'
 import { BrowserRouter as Router } from 'react-router-dom'
@@ -11,6 +12,7 @@ function App() {
         <Suspense>
           <AppRouter />
         </Suspense>
+        <Footer />
       </Router>
     </div>
   )

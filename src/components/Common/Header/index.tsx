@@ -1,4 +1,4 @@
-import { LINKS } from '@/data/menu'
+import { ROUTES } from '@/routes'
 import { BiLogoInstagram, BiLogoWhatsapp, BiPhone } from 'react-icons/bi'
 
 import { NavLink as RouterNavLink } from 'react-router-dom'
@@ -20,12 +20,12 @@ const Header = () => {
   return (
     <header className="relative border-b border-gray-200">
       <div className="flex justify-center">
-        <div className="container flex items-center justify-between mx-auto">
+        <div className="container flex items-center justify-between">
           <div className="flex items-center gap-20">
             <img src="/images/logo.svg" className="w-[120px]" />
-            <nav className="flex gap-4">
-              {LINKS.map((item, index) => (
-                <NavLink key={index} to={item.url}>
+            <nav className="flex items-center">
+              {ROUTES.map((item, index) => (
+                <NavLink key={index} to={item.path}>
                   {item.name}
                 </NavLink>
               ))}

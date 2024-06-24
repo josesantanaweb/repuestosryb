@@ -1,10 +1,12 @@
+import Main from '@/components/Home/Main'
+import WhyChooseUs from '@/components/Home/WhyChooseUs'
 
 const HomePage = () => {
   return (
-    <main>
-      {/* <MainBanner /> */}
-      hOME
-    </main>
+    <div>
+      <Main />
+      <WhyChooseUs />
+    </div>
   )
 }
 

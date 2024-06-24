@@ -1,16 +1,25 @@
-import { AppsPage, HomePage, ProjectsPage } from '@/pages'
+import { HomePage } from '@/pages'
 
-export const routes = [
+export const ROUTES = [
   {
     path: '/',
+    name: 'Inicio',
     element: <HomePage />,
   },
   {
-    path: '/aplicaciones',
-    element: <AppsPage />,
+    name: 'Quiénes somos',
+    path: '/quienes-somos',
   },
   {
+    name: 'Catálogo',
+    path: '/catalogo',
+  },
+  {
+    name: 'Trabaja con nosotros',
     path: '/proyectos',
-    element: <ProjectsPage />,
+  },
+  {
+    name: 'Contacto',
+    path: '/contacto',
   },
 ]
