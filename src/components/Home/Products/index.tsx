@@ -10,12 +10,22 @@ interface ProductProps {
     name: string
     code: string[]
     brand: string
+    tag: string
   }
 }
 
 const Product = ({ product }: ProductProps) => {
   return (
     <div className="flex flex-col p-5 border border-gray-200 cursor-pointer" id="catalogo">
+      {product.tag && (
+        <span
+          className={`px-2 py-1 text-xs text-white rounded-full max-w-[60px] text-center ${
+            product.tag === 'Nuevo' ? 'bg-primary' : 'bg-secondary'
+          }`}
+        >
+          {product.tag}
+        </span>
+      )}
       <div className="flex items-center justify-center mb-3 overflow-hidden bg-white-200">
         <img
           src={`/images/products/${product.image}`}

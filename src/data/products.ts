@@ -5,6 +5,7 @@ export const PRODUCTS = [
     name: 'AMORTIGUADOR - CAPTIVA(DER - IZQ)',
     code: ['96858479 Derecho', '96858480 Izquierdo'],
     brand: 'PERFECT',
+    tag: 'Nuevo',
   },
   {
     id: 2,
@@ -26,6 +27,7 @@ export const PRODUCTS = [
     name: 'BASE DE AMORTIGUADOR - SPARK',
     code: ['95015324'],
     brand: 'GM',
+    tag: '15%',
   },
   {
     id: 5,
@@ -47,6 +49,7 @@ export const PRODUCTS = [
     name: 'BASE DE MOTOR FRONTAL DEL',
     code: ['S12-1001510'],
     brand: 'CHERY',
+    tag: '5%',
   },
   {
     id: 8,
