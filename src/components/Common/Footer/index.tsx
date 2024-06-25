@@ -10,7 +10,7 @@ const Partner = ({ logo }: PartnerProps) => {
 
 const Footer = () => {
   return (
-    <footer className="relative w-full">
+    <footer className="relative w-full" id="contacto">
       <div className="max-w-[70rem] flex flex-col mx-auto">
         <div className="flex items-center justify-between bg-white">
           {PARTNERS.map((partner, index) => (

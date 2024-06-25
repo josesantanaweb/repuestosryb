@@ -14,6 +14,7 @@ export const ROUTES = [
   {
     name: 'Catálogo',
     path: '/catalogo',
+    scrollTo: 'catalogo',
   },
   {
     name: 'Trabaja con nosotros',
@@ -23,5 +24,6 @@ export const ROUTES = [
   {
     name: 'Contacto',
     path: '/contacto',
+    scrollTo: 'contacto',
   },
 ]

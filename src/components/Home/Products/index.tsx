@@ -15,7 +15,7 @@ interface ProductProps {
 
 const Product = ({ product }: ProductProps) => {
   return (
-    <div className="flex flex-col p-5 border border-gray-200 cursor-pointer">
+    <div className="flex flex-col p-5 border border-gray-200 cursor-pointer" id="catalogo">
       <div className="flex items-center justify-center mb-3 overflow-hidden bg-white-200">
         <img
           src={`/images/products/${product.image}`}
