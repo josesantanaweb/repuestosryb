@@ -16,21 +16,21 @@ interface ProductProps {
 
 const Product = ({ product }: ProductProps) => {
   return (
-    <div className="flex flex-col p-5 border border-gray-200 cursor-pointer" id="catalogo">
+    <div className="relative flex flex-col p-5 border border-gray-200 cursor-pointer" id="catalogo">
       {product.tag && (
         <span
-          className={`px-2 py-1 text-xs text-white rounded-full max-w-[60px] text-center ${
+          className={`px-2 py-1 text-xs text-white rounded-full max-w-[60px] text-center absolute z-20 top-3 left-3 ${
             product.tag === 'Nuevo' ? 'bg-primary' : 'bg-secondary'
           }`}
         >
           {product.tag}
         </span>
       )}
-      <div className="flex items-center justify-center mb-3 overflow-hidden bg-white-200">
+      <div className="flex items-center justify-center mb-3 overflow-hidden bg-white-200 h-[270px]">
         <img
-          src={`/images/products/${product.image}`}
+          src={`/images/products/${product.image}.png`}
           alt={product.name}
-          className="w-full h-[270px] scale-100 hover:scale-125 transition-all"
+          className="w-full transition-all scale-100 hover:scale-125"
         />
       </div>
       <h3 className="mb-2 text-base font-semibold uppercase text-primary">{product.name}</h3>
