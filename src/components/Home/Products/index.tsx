@@ -68,7 +68,7 @@ const Products = () => {
             </h4>
             <span className="w-14 h-0.5 bg-secondary"></span>
           </div>
-          <div className="flex items-center justify-center w-full gap-2 lg:gap-8 lg:justify-start lg:w-auto">
+          <div className="flex items-center justify-center w-full gap-4 lg:gap-8 lg:justify-start lg:w-auto">
             {TABS.map((tab) => (
               <span
                 key={tab}
