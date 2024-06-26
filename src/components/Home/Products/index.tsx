@@ -1,5 +1,6 @@
+import Skeleton from '@/components/Common/Skeleton'
 import { PRODUCTS } from '@/data/products'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 const TABS = ['Todos', 'Nuevos', 'Mas Vendidos', 'Ofertas']
 
@@ -10,13 +11,13 @@ interface ProductProps {
     name: string
     code: string[]
     brand: string
-    tag: string
+    tag?: string
   }
 }
 
 const Product = ({ product }: ProductProps) => {
   return (
-    <div className="relative flex flex-col p-5 border border-gray-200 cursor-pointer" id="catalogo">
+    <div className="relative flex flex-col p-5 border border-gray-200 cursor-pointer">
       {product.tag && (
         <span
           className={`px-2 py-1 text-xs text-white rounded-full max-w-[60px] text-center absolute z-20 top-3 left-3 ${
@@ -48,9 +49,17 @@ const Product = ({ product }: ProductProps) => {
 
 const Products = () => {
   const [tabActive, setTabActive] = useState('Todos')
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 2000)
+  }, [])
 
   return (
-    <div className="w-full bg-white py-14">
+    <div className="w-full bg-white py-14" id="catalogo">
       <div className="container">
         <div className="flex items-start justify-between mb-10">
           <div className="flex flex-col justify-start gap-4 mb-10">
@@ -74,9 +83,9 @@ const Products = () => {
           </div>
         </div>
         <div className="grid grid-cols-5">
-          {PRODUCTS.map((product) => (
-            <Product key={product.id} product={product} />
-          ))}
+          {loading
+            ? PRODUCTS.map((product) => <Skeleton key={product.id} />)
+            : PRODUCTS.map((product) => <Product key={product.id} product={product} />)}
         </div>
       </div>
     </div>
