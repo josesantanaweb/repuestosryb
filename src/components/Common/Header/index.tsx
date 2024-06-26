@@ -1,4 +1,5 @@
 import { ROUTES } from '@/routes'
+import React, { useState } from 'react'
 import { BiLogoInstagram, BiLogoWhatsapp, BiMenu, BiPhone } from 'react-icons/bi'
 
 import { NavLink as RouterNavLink, useNavigate } from 'react-router-dom'
@@ -19,34 +20,60 @@ const NavLink = ({ to, children, onClick }: NavLinkProps) => {
 
 const Header = () => {
   const navigate = useNavigate()
+  const [open, setOpen] = useState(false)
 
   const handleScroll = (sectionId: string) => (event: any) => {
     if (!sectionId) return
     event.preventDefault()
+    setOpen(false)
     const section = document.getElementById(sectionId)
     if (section) section.scrollIntoView({ behavior: 'smooth' })
+  }
+
+  const handleNavigate = (path: string) => {
+    setOpen(false)
+    navigate(path)
+  }
+
+  const handleMenu = () => {
+    setOpen(!open)
   }
 
   return (
     <header className="relative bg-white border-b border-gray-200">
       <div className="flex justify-center">
         <div className="container flex flex-col items-center justify-between lg:flex-row">
-          <div className="flex items-center justify-between w-full gap-10 px-5 py-5 lg:gap-20 lg:w-auto lg:px-0">
+          <div className="relative flex items-center justify-between w-full gap-10 px-5 py-5 lg:py-0 lg:gap-20 lg:w-auto lg:px-0">
             <img src="/images/logo.svg" className="w-[60px] lg:w-[120px]" />
-            <span className="block cursor-pointer text-primary lg:hidden">
+            <span className="block cursor-pointer text-primary lg:hidden" onClick={handleMenu}>
               <BiMenu size={24} />
             </span>
-            <nav className="flex-col items-center hidden w-full lg:flex lg:flex-row lg:w-auto">
+            <nav className="hidden absolute top-[70px] right-0 z-20 lg:flex flex-col items-center w-full bg-white lg:flex-row lg:w-auto lg:static">
               {ROUTES.map((item, index) => (
                 <NavLink
                   key={index}
                   to={item.path}
-                  onClick={(event) => (item.scrollTo ? handleScroll(item.scrollTo)(event) : navigate(item.path))}
+                  onClick={(event) => (item.scrollTo ? handleScroll(item.scrollTo)(event) : handleNavigate(item.path))}
                 >
                   {item.name}
                 </NavLink>
               ))}
             </nav>
+            {open && (
+              <nav className="absolute top-[70px] right-0 z-20 flex flex-col items-center w-full bg-white lg:flex-row lg:w-auto lg:static">
+                {ROUTES.map((item, index) => (
+                  <NavLink
+                    key={index}
+                    to={item.path}
+                    onClick={(event) =>
+                      item.scrollTo ? handleScroll(item.scrollTo)(event) : handleNavigate(item.path)
+                    }
+                  >
+                    {item.name}
+                  </NavLink>
+                ))}
+              </nav>
+            )}
           </div>
           <div className="items-center hidden gap-5 lg:flex">
             <span className="text-primary">

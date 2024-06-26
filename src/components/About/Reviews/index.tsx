@@ -1,3 +1,5 @@
+import { useEffect, useState } from 'react'
+
 import { REVIEWS } from '@/data/reviews'
 import { BiSolidStar } from 'react-icons/bi'
 import Slider from 'react-slick'
@@ -32,11 +34,26 @@ const Review = ({ review }: ReviewProps) => {
 }
 
 const Reviews = () => {
+  const [slidesToShow, setSlidesToShow] = useState(3)
+
+  useEffect(() => {
+    const handleResize = () => {
+      const isMobile = window.innerWidth < 768
+      setSlidesToShow(isMobile ? 1 : 3)
+    }
+
+    handleResize()
+
+    window.addEventListener('resize', handleResize)
+
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
+
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: slidesToShow,
     slidesToScroll: 1,
     autoplay: true,
   }
