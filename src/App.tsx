@@ -1,3 +1,4 @@
+import Footer from '@/components/Common/Footer'
 import { Suspense } from 'react'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { AppRouter } from './routes/Router'
@@ -10,7 +11,7 @@ function App() {
         <Suspense>
           <AppRouter />
         </Suspense>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </div>
   )

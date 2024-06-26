@@ -61,14 +61,14 @@ const Products = () => {
   return (
     <div className="w-full bg-white py-14" id="catalogo">
       <div className="container">
-        <div className="flex items-start justify-between mb-10">
-          <div className="flex flex-col justify-start gap-4 mb-10">
-            <h4 className="text-2xl text-left uppercase">
+        <div className="flex flex-col items-start justify-between mb-10 lg:flex-row">
+          <div className="flex flex-col items-center justify-center gap-4 mb-10 lg:justify-start">
+            <h4 className="text-2xl text-center uppercase lg:text-left">
               Conoce Nuestros <span className="font-semibold">Productos</span>
             </h4>
             <span className="w-14 h-0.5 bg-secondary"></span>
           </div>
-          <div className="flex items-center gap-8">
+          <div className="flex items-center justify-center w-full gap-2 lg:gap-8 lg:justify-start lg:w-auto">
             {TABS.map((tab) => (
               <span
                 key={tab}
@@ -82,7 +82,7 @@ const Products = () => {
             ))}
           </div>
         </div>
-        <div className="grid grid-cols-5">
+        <div className="grid grid-cols-1 lg:grid-cols-5">
           {loading
             ? PRODUCTS.map((product) => <Skeleton key={product.id} />)
             : PRODUCTS.map((product) => <Product key={product.id} product={product} />)}
