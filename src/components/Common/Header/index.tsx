@@ -1,5 +1,5 @@
 import { ROUTES } from '@/routes'
-import { BiLogoInstagram, BiLogoWhatsapp, BiPhone } from 'react-icons/bi'
+import { BiLogoInstagram, BiLogoWhatsapp, BiMenu, BiPhone } from 'react-icons/bi'
 
 import { NavLink as RouterNavLink, useNavigate } from 'react-router-dom'
 
@@ -28,12 +28,15 @@ const Header = () => {
   }
 
   return (
-    <header className="relative border-b border-gray-200">
+    <header className="relative bg-white border-b border-gray-200">
       <div className="flex justify-center">
-        <div className="container flex items-center justify-between">
-          <div className="flex items-center gap-20">
-            <img src="/images/logo.svg" className="w-[120px]" />
-            <nav className="flex items-center">
+        <div className="container flex flex-col items-center justify-between lg:flex-row">
+          <div className="flex items-center justify-between w-full gap-10 px-5 py-5 lg:gap-20 lg:w-auto lg:px-0">
+            <img src="/images/logo.svg" className="w-[60px] lg:w-[120px]" />
+            <span className="block cursor-pointer text-primary lg:hidden">
+              <BiMenu size={24} />
+            </span>
+            <nav className="flex-col items-center hidden w-full lg:flex lg:flex-row lg:w-auto">
               {ROUTES.map((item, index) => (
                 <NavLink
                   key={index}
@@ -45,7 +48,7 @@ const Header = () => {
               ))}
             </nav>
           </div>
-          <div className="flex items-center gap-5">
+          <div className="items-center hidden gap-5 lg:flex">
             <span className="text-primary">
               <BiLogoInstagram size={24} />
             </span>

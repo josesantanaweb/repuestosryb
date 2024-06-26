@@ -34,11 +34,11 @@ body {
 }
 
 .link {
-  @apply p-8 text-sm text-gray-400 uppercase transition-all border-b-2 border-transparent cursor-pointer hover:text-primary hover:font-semibold hover:bg-gray-100 hover:border-primary;
+  @apply w-full p-8 text-sm text-center text-gray-400 uppercase transition-all border-b-2 border-transparent cursor-pointer hover:text-primary hover:font-semibold hover:bg-gray-100 lg:hover:border-primary lg:w-auto;
 }
 
 .link-active {
-  @apply font-semibold bg-gray-100 border-b-2 text-primary border-primary;
+  @apply font-semibold bg-gray-100 border-b-2 text-primary lg:border-primary;
 }
 
 .main {
