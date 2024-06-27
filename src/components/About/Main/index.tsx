@@ -8,9 +8,6 @@ const Main = () => {
         <h1 className="text-[2.5rem] lg:text-[4.25rem] text-secondary text-center font-bold font-kanit opacity-15">
           QUIÉNES SOMOS
         </h1>
-        <h1 className="text-[1.2rem] lg:text-[1.5rem] text-secondary text-center font-light font-kanit lg:mb-2">
-          BIENVENIDO A
-        </h1>
         <h1 className="text-[1.5rem] lg:text-[2rem] text-primary italic text-center font-semibold font-kanit mb-8 drop-shadow-[0_4px_4px_rgba(1,44,114,0.20)]">
           REPUESTOS D&B
         </h1>

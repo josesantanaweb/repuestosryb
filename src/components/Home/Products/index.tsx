@@ -30,7 +30,7 @@ const Product = ({ product }: ProductProps) => {
         <img
           src={`/images/products/${product.image}.png`}
           alt={product.name}
-          className="w-full transition-all scale-100 hover:scale-125"
+          className="w-[80%] transition-all scale-100 hover:scale-110"
         />
       </div>
       <h3 className="mb-2 text-base font-semibold uppercase text-primary">{product.name}</h3>
