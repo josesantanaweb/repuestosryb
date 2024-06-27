@@ -6,6 +6,7 @@ export const PRODUCTS = [
     code: ['333417 Derecho', '333418 Izquierdo'],
     brand: 'A3POINT',
     tag: 'Nuevo',
+    imageSize: '80%',
   },
   {
     id: 2,
@@ -13,6 +14,7 @@ export const PRODUCTS = [
     name: 'AMORTIGUADOR PARA Captiva (DER - IZQ)',
     code: ['96858479 Derecho', '96858480 Izquierdo'],
     brand: 'PERFECT',
+    imageSize: '80%',
   },
   {
     id: 3,
@@ -20,6 +22,7 @@ export const PRODUCTS = [
     name: 'BASE DE AMORTIGUADOR PARA ARAUCA',
     code: ['S21-2901013'],
     brand: 'CHERY',
+    imageSize: '80%',
   },
   {
     id: 4,
@@ -28,6 +31,7 @@ export const PRODUCTS = [
     code: ['95015324'],
     brand: 'GM',
     tag: '15%',
+    imageSize: '80%',
   },
   {
     id: 5,
@@ -35,6 +39,7 @@ export const PRODUCTS = [
     name: 'BASE DE AMORTIGUADOR PARA CORSA 1.3',
     code: ['92098953'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 6,
@@ -42,6 +47,7 @@ export const PRODUCTS = [
     name: 'BASE DE AMORTIGUADOR PARA AVEO (CÓNICA)',
     code: ['96653239'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 7,
@@ -50,6 +56,7 @@ export const PRODUCTS = [
     code: ['S12-1001510'],
     brand: 'CHERY',
     tag: '5%',
+    imageSize: '80%',
   },
   {
     id: 8,
@@ -57,6 +64,7 @@ export const PRODUCTS = [
     name: 'BASE de motor chevrolet blazer 4.3',
     code: ['15138296'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 9,
@@ -64,6 +72,7 @@ export const PRODUCTS = [
     name: 'BASE de motor PARA Silverado TAHOE/AVALANCHE (08-15)',
     code: ['15854941'],
     brand: 'ACDELCO',
+    imageSize: '80%',
   },
   {
     id: 10,
@@ -71,6 +80,7 @@ export const PRODUCTS = [
     name: 'BASE de motor PARA ARAUCA (DER - IZQ)',
     code: ['S12-1001310 DERECHA', 'S12-1001110 IZQUIERDA'],
     brand: 'CHERY',
+    imageSize: '80%',
   },
   {
     id: 11,
@@ -78,6 +88,7 @@ export const PRODUCTS = [
     name: 'BASE de motor DELANTERA PARA ECOSPORT',
     code: ['2S65 6F012 LB'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 12,
@@ -85,6 +96,7 @@ export const PRODUCTS = [
     name: 'BASE TRASERA MOTOR CAJA PARA ARAUCA',
     code: ['S12-1001710'],
     brand: 'CHERY',
+    imageSize: '80%',
   },
   {
     id: 13,
@@ -92,6 +104,7 @@ export const PRODUCTS = [
     name: 'BOMBA DE AGUA PARA FORD FIESTA',
     code: ['XS6E-8501-AD'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 14,
@@ -99,6 +112,7 @@ export const PRODUCTS = [
     name: 'BOMBA DE AGUA DE CORSA',
     code: ['93302485'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 15,
@@ -106,6 +120,7 @@ export const PRODUCTS = [
     name: 'BOMBA DE AGUA PARA AVEO',
     code: ['96352650'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 16,
@@ -113,6 +128,7 @@ export const PRODUCTS = [
     name: 'BOMBA DE AGUA para orinoco 1.8 TIGGO 2.0 A520/TIUNA X5 H5',
     code: ['484-FC1307010'],
     brand: 'CHERY',
+    imageSize: '80%',
   },
   {
     id: 17,
@@ -120,6 +136,7 @@ export const PRODUCTS = [
     name: 'BOMBA DE AGUA para eco sport 2.0 RANGER/FOCUS/MAZDA 3-6',
     code: ['4S4Z-8501-AA'],
     brand: 'MOTORCRAFT',
+    imageSize: '80%',
   },
   {
     id: 18,
@@ -127,6 +144,7 @@ export const PRODUCTS = [
     name: 'BOMBA DE AGUA para grand vitara 6 CILINDROS 2.7',
     code: ['19195128'],
     brand: 'ACDELCO',
+    imageSize: '80%',
   },
   {
     id: 19,
@@ -134,6 +152,7 @@ export const PRODUCTS = [
     name: 'BOmba de aCEITE para aveo',
     code: ['96386934'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 20,
@@ -141,6 +160,7 @@ export const PRODUCTS = [
     name: 'BOmba de aCEITE para FIESTA (SIN DAMPER)',
     code: ['XS6E-6600-AG'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 21,
@@ -148,6 +168,7 @@ export const PRODUCTS = [
     name: 'BOmba de aCEITE para CORSA 1.3/1.4/1.6 (HEXAGONAL)',
     code: ['90412744'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 22,
@@ -155,6 +176,7 @@ export const PRODUCTS = [
     name: 'BOmba de aCEITE para silverado MOTOR 5.3',
     code: ['12586665M'],
     brand: 'ACDELCO',
+    imageSize: '80%',
   },
   {
     id: 23,
@@ -162,6 +184,7 @@ export const PRODUCTS = [
     name: 'BOmba FORD EXPLORER F150/F250/TRITON/FX4 ',
     code: ['3L3E-12A366-CA'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 24,
@@ -169,6 +192,7 @@ export const PRODUCTS = [
     name: 'BOmba de freno ford fiesta POWER/MAX/MOVE/ECOSPORT 1.6 ',
     code: ['2S65-2140-CA'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 25,
@@ -176,6 +200,7 @@ export const PRODUCTS = [
     name: 'BOMBÍN CLUTCH INFERIOR PARA AVEO/OPTRA',
     code: ['96293075'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 26,
@@ -183,6 +208,7 @@ export const PRODUCTS = [
     name: 'BOMBÍN CLUTCH SUPERIOR PARA AVEO/LANOS',
     code: ['96339733'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 27,
@@ -190,6 +216,7 @@ export const PRODUCTS = [
     name: 'BOMBÍN CLUTCH INFERIOR PARA GRAND VITARA',
     code: ['23820-65D00'],
     brand: 'ISUZU',
+    imageSize: '50%',
   },
   {
     id: 28,
@@ -197,6 +224,7 @@ export const PRODUCTS = [
     name: 'BUJÍAS 2 PUNTAS NGK PARA OPTRA/ASTRA/PALIO/CLIO BMW 318 325 328/PEUGEOT 605/GRAND TIGER',
     code: ['BKR6EKC'],
     brand: 'NGK',
+    imageSize: '80%',
   },
   {
     id: 29,
@@ -204,6 +232,7 @@ export const PRODUCTS = [
     name: 'BUJÍAS ngk para corsa SPARK/MATIZ',
     code: ['BPR6EY'],
     brand: 'NGK',
+    imageSize: '80%',
   },
   {
     id: 30,
@@ -211,6 +240,7 @@ export const PRODUCTS = [
     name: 'BUJÍA IRIDIUM PARA SILVERADO',
     code: ['41-993'],
     brand: 'ACDELCO',
+    imageSize: '80%',
   },
   {
     id: 31,
@@ -218,6 +248,7 @@ export const PRODUCTS = [
     name: 'BUJÍAS  marca DENSO PARA TIBURON/SONATA BT50 BT220 BT2600/GALANT/ MONTERO L300',
     code: ['K16RT11'],
     brand: 'DENSO',
+    imageSize: '80%',
   },
   {
     id: 32,
@@ -225,6 +256,7 @@ export const PRODUCTS = [
     name: 'BUJÍA PUNTA PLATINO PARA AVEO/CRUZE/ELANTRA/GETZ/LANCER SIGNO/MEGANE/LOGAN/TIGGO/LUV DMAX',
     code: ['BKR6EGP'],
     brand: 'NGK',
+    imageSize: '80%',
   },
   {
     id: 33,
@@ -232,6 +264,7 @@ export const PRODUCTS = [
     name: 'BUJÍA DE PLATINO PARA EXPLORER TRITON/RANGER/FOCUS',
     code: ['SP-500'],
     brand: 'MOTORCRAFT',
+    imageSize: '80%',
   },
   {
     id: 34,
@@ -239,6 +272,7 @@ export const PRODUCTS = [
     name: 'BUJÍA MOTORCRaft PARA EXPLORER/EXPEDITION EDDIE BAUER/FX4/SPORTRACK',
     code: ['SP-515'],
     brand: 'MOTORCRAFT',
+    imageSize: '80%',
   },
   {
     id: 35,
@@ -246,6 +280,7 @@ export const PRODUCTS = [
     name: 'BUJÍA DE PLATINO PARA FIESTA POWER/KA/ECOSPORT 1.6/2.0 SUPER DUTY 6.2',
     code: ['SP-411'],
     brand: 'MOTORCRAFT',
+    imageSize: '80%',
   },
   {
     id: 36,
@@ -253,6 +288,7 @@ export const PRODUCTS = [
     name: 'CABLES DE BUJÍA PARA CORSA MONTANA/MARIVA',
     code: ['89050495'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 37,
@@ -260,6 +296,7 @@ export const PRODUCTS = [
     name: 'CABLES DE BUJÍA PARA FIESTA',
     code: ['XS6F12282B3C'],
     brand: 'MOTORCRAFT',
+    imageSize: '80%',
   },
   {
     id: 38,
@@ -267,6 +304,7 @@ export const PRODUCTS = [
     name: 'cigüeñaL PARA AVEO',
     code: ['96385403'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 39,
@@ -274,6 +312,7 @@ export const PRODUCTS = [
     name: 'cOLLAR​ÍN HIDRÁULICO PARA FIESTA',
     code: ['2S65-7A564-AA'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 40,
@@ -281,6 +320,7 @@ export const PRODUCTS = [
     name: 'cOLLAR​ÍN DE ORINOCO',
     code: ['519MHA-1602501'],
     brand: 'CHERY',
+    imageSize: '80%',
   },
   {
     id: 41,
@@ -288,6 +328,7 @@ export const PRODUCTS = [
     name: 'cONCHA BANCADA 0.10 PARA SPARK',
     code: ['96659183'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 42,
@@ -295,6 +336,7 @@ export const PRODUCTS = [
     name: 'cONCHA DE BIELA 0.10 PARA AVEO/OPTRA DSG',
     code: ['93742708'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 43,
@@ -302,6 +344,7 @@ export const PRODUCTS = [
     name: 'CORREA DE TIEMPO PARA AVEO 127 DIENTES',
     code: ['96417177'],
     brand: 'GATES',
+    imageSize: '80%',
   },
   {
     id: 44,
@@ -309,6 +352,7 @@ export const PRODUCTS = [
     name: 'CORREA DE TIEMPO PARA CORSA 111 DIENTES',
     code: ['96352407'],
     brand: 'GATES',
+    imageSize: '80%',
   },
   {
     id: 45,
@@ -316,6 +360,7 @@ export const PRODUCTS = [
     name: 'cORREA DE TIEMPO PARA OPTRA DSG 162 DIENTES',
     code: ['96413861'],
     brand: 'GATES',
+    imageSize: '80%',
   },
   {
     id: 46,
@@ -323,6 +368,7 @@ export const PRODUCTS = [
     name: 'CORREA DE TIEMPO PARA ARAUCA/QQ6/X1 167 DIENTES',
     code: ['473H-1007073'],
     brand: 'CHERY',
+    imageSize: '80%',
   },
   {
     id: 47,
@@ -330,6 +376,7 @@ export const PRODUCTS = [
     name: 'CORREA DE TIEMPO PARA ORINICO/TIGGO 2.0 173 DIENTES',
     code: ['481H-1007073BC'],
     brand: 'CHERY',
+    imageSize: '80%',
   },
   {
     id: 48,
@@ -337,6 +384,7 @@ export const PRODUCTS = [
     name: 'CORREA DE TIEMPO PARA SPARK 109 DIENTES',
     code: ['96610029'],
     brand: 'GATES',
+    imageSize: '80%',
   },
   {
     id: 49,
@@ -344,6 +392,7 @@ export const PRODUCTS = [
     name: 'CORREA DE TIEMPO PARA ARAUCA/X1/QQ6 167 DIENTES',
     code: ['473H-1007073-'],
     brand: 'MITSUBA',
+    imageSize: '80%',
   },
   {
     id: 50,
@@ -351,6 +400,7 @@ export const PRODUCTS = [
     name: 'cORREA ÚNICA PARA CORSA 1.8 ',
     code: ['19104834'],
     brand: 'ACDELCO',
+    imageSize: '80%',
   },
   {
     id: 51,
@@ -358,6 +408,7 @@ export const PRODUCTS = [
     name: 'CORREA UNICA PARA FIESTA ECOSPORT 1.6',
     code: ['06K883MV'],
     brand: 'ACDELCO',
+    imageSize: '70%',
   },
   {
     id: 52,
@@ -365,6 +416,7 @@ export const PRODUCTS = [
     name: 'CORREA UNICA PARA SILVERADO',
     code: ['6PK2375'],
     brand: 'ACDELCO',
+    imageSize: '70%',
   },
   {
     id: 53,
@@ -372,6 +424,7 @@ export const PRODUCTS = [
     name: 'CORREA UNICA GRAND VITARA 2.0',
     code: ['19104831'],
     brand: 'ACDELCO',
+    imageSize: '70%',
   },
   {
     id: 54,
@@ -379,6 +432,7 @@ export const PRODUCTS = [
     name: 'CORREA UNICA PARA LUV DMAX',
     code: ['19104897'],
     brand: 'ACDELCO',
+    imageSize: '70%',
   },
   {
     id: 55,
@@ -386,6 +440,7 @@ export const PRODUCTS = [
     name: 'EMPACADURA TAPA VÁLVULA PARA ARAUCA',
     code: ['M473H-1003054'],
     brand: 'CHERY',
+    imageSize: '80%',
   },
   {
     id: 56,
@@ -393,6 +448,7 @@ export const PRODUCTS = [
     name: 'EMPACADURA TAPA VÁLVULA PARA FIESTA',
     code: ['MX16E-6594-A2B'],
     brand: 'MOTORCRAFT',
+    imageSize: '80%',
   },
   {
     id: 57,
@@ -400,6 +456,7 @@ export const PRODUCTS = [
     name: 'EMPACADURA TAPA VÁLVULA PARA OPTRA DSG',
     code: ['M90573498'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 58,
@@ -407,6 +464,7 @@ export const PRODUCTS = [
     name: 'EMPACADURA TAPA VÁLVULA PARA ECOSPORT',
     code: ['1S7G-6K260-AA'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 59,
@@ -414,6 +472,7 @@ export const PRODUCTS = [
     name: 'EMPACADURA TAPA VÁLVULA PARA SPARK',
     code: ['M96325175'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 60,
@@ -421,6 +480,7 @@ export const PRODUCTS = [
     name: 'EMPACADURA TAPA VÁLVULA PARA SPARK',
     code: ['96325175N'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 61,
@@ -428,6 +488,7 @@ export const PRODUCTS = [
     name: 'EMPACADURA TAPA VÁLVULA PARA LUV DMAX',
     code: ['8971723940'],
     brand: 'ISUZU',
+    imageSize: '80%',
   },
   {
     id: 62,
@@ -435,6 +496,7 @@ export const PRODUCTS = [
     name: 'EMPACADURA TAPA VÁLVULA PARA SILVERADO/TAHOE/AVALACHE (PAR)',
     code: ['12637683P'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 63,
@@ -442,6 +504,7 @@ export const PRODUCTS = [
     name: 'EMPACADURA TAPA VÁLVULA PARA AVEO 1.6',
     code: ['96353002'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 64,
@@ -449,6 +512,7 @@ export const PRODUCTS = [
     name: 'EMPACADURA TAPA VÁLVULA PARA AVEO 1.6',
     code: ['M96353002'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 65,
@@ -456,6 +520,7 @@ export const PRODUCTS = [
     name: 'EMPACADURA TAPA VÁLVULA PARA FIESTA',
     code: ['X16E 6594 A2B'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 66,
@@ -463,6 +528,7 @@ export const PRODUCTS = [
     name: 'EMPACADURA CÁMARA PARA AVEO 1 HUECO',
     code: ['96378802'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 67,
@@ -470,6 +536,7 @@ export const PRODUCTS = [
     name: 'EMPACADURA CÁMARA PARA AVEO 2 HUECOS',
     code: ['96373400'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 68,
@@ -477,6 +544,7 @@ export const PRODUCTS = [
     name: 'KIT DE EMPACADURA PARA FIESTA',
     code: ['2S6G-6051-A2B'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 69,
@@ -484,6 +552,7 @@ export const PRODUCTS = [
     name: 'KIT DE EMPACADURA PARA CORSA 1.4/1.6',
     code: ['92089968'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 70,
@@ -491,6 +560,7 @@ export const PRODUCTS = [
     name: 'ENVASES DE REFRIGERANTE PARA AVEO CON TAPA',
     code: ['96817343'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 71,
@@ -498,6 +568,7 @@ export const PRODUCTS = [
     name: 'ENVASES DE REFRIGERANTE PARA FIESTA',
     code: ['8S65-8K218-BA'],
     brand: 'MOTORCRAFT',
+    imageSize: '80%',
   },
   {
     id: 72,
@@ -505,6 +576,7 @@ export const PRODUCTS = [
     name: 'ENVASES DE REFRIGERANTE PARA ORINOCO',
     code: ['M11-1311111'],
     brand: 'CHERY',
+    imageSize: '80%',
   },
   {
     id: 73,
@@ -512,6 +584,7 @@ export const PRODUCTS = [
     name: 'ENVASE HIDRAULICO PARA AVEO',
     code: ['96413748'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 74,
@@ -519,6 +592,7 @@ export const PRODUCTS = [
     name: 'ENVASE HIDRAULICO PARA VITARA',
     code: ['49140-54J01'],
     brand: 'ISUZU',
+    imageSize: '80%',
   },
   {
     id: 75,
@@ -526,6 +600,7 @@ export const PRODUCTS = [
     name: 'ESTOPERA cigüeñal TRASERA para cruzE',
     code: ['55555805'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 76,
@@ -533,6 +608,7 @@ export const PRODUCTS = [
     name: 'ESTOPERA cigüeñal DELANTERA PARA ÉPICA',
     code: ['96307764'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 77,
@@ -540,6 +616,7 @@ export const PRODUCTS = [
     name: 'ESTOPERA cigüeñal DELANTERA PARA LUV DMAX 3.5',
     code: ['8-97023373-0N'],
     brand: 'ISUZU',
+    imageSize: '80%',
   },
   {
     id: 78,
@@ -547,6 +624,7 @@ export const PRODUCTS = [
     name: 'ESTOPERA cigüeñal DELANTERA PARA SILVERADO',
     code: ['296-02'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 79,
@@ -554,6 +632,7 @@ export const PRODUCTS = [
     name: 'ESTOPERA cigüeñal TRASERA PARA SILVERADO',
     code: ['89060436'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 80,
@@ -561,6 +640,7 @@ export const PRODUCTS = [
     name: 'ESTOPERA cigüeñal DELANTERA PARA VITARA',
     code: ['09283-45012'],
     brand: 'ISUZU',
+    imageSize: '80%',
   },
   {
     id: 81,
@@ -568,6 +648,7 @@ export const PRODUCTS = [
     name: 'ESTOPERA cigüeñal TRASERA PARA AVEO/OPTRA DSG/CORSA',
     code: ['96376569'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 82,
@@ -575,6 +656,7 @@ export const PRODUCTS = [
     name: 'ESTOPERA ÁRBOL DE LEVA PARA AVEO',
     code: ['94580413'],
     brand: 'SABO',
+    imageSize: '80%',
   },
   {
     id: 83,
@@ -582,6 +664,7 @@ export const PRODUCTS = [
     name: 'ESTOPERA GUÍA COLLARÍN PARA CORSA',
     code: ['02371BAG'],
     brand: 'SABO',
+    imageSize: '80%',
   },
   {
     id: 84,
@@ -589,6 +672,7 @@ export const PRODUCTS = [
     name: 'ESTOPERA SELECTORA DE CAMBIO PARA CORSA',
     code: ['02373BRG'],
     brand: 'SABO',
+    imageSize: '80%',
   },
   {
     id: 85,
@@ -596,6 +680,7 @@ export const PRODUCTS = [
     name: 'CAJA FILTRO DE AIRE para aveo',
     code: ['96814238'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 86,
@@ -603,6 +688,7 @@ export const PRODUCTS = [
     name: 'FILTRO DE ACEITE PARA SILVERADO/AVALANCHE (10.000 KM)',
     code: ['PF48'],
     brand: 'ACDELCO',
+    imageSize: '80%',
   },
   {
     id: 87,
@@ -610,6 +696,7 @@ export const PRODUCTS = [
     name: 'FILTRO DE AIRE PARA AVEO',
     code: ['96536696'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 88,
@@ -617,6 +704,7 @@ export const PRODUCTS = [
     name: 'FILTRO DE AIRE PARA ARAUCA',
     code: ['S21-1109111'],
     brand: 'CHERY',
+    imageSize: '80%',
   },
   {
     id: 89,
@@ -624,6 +712,7 @@ export const PRODUCTS = [
     name: 'FILTRO DE GASOLINA PARA ARAUCA',
     code: ['B14-1117110'],
     brand: 'CHERY',
+    imageSize: '80%',
   },
   {
     id: 90,
@@ -631,6 +720,7 @@ export const PRODUCTS = [
     name: 'FILTRO DE GASOLINA PARA AVEO/OPTRA/CORSA/SPARK/LUV DMAX',
     code: ['96335719'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 91,
@@ -638,6 +728,7 @@ export const PRODUCTS = [
     name: 'FILTRO DE GASOLINA PARA FIESTA (METÁLICO) ',
     code: ['FG-986B'],
     brand: 'MOTORCRAFT',
+    imageSize: '80%',
   },
   {
     id: 92,
@@ -645,6 +736,7 @@ export const PRODUCTS = [
     name: 'FLOTANTE DE GASOLINA PARA CORSA',
     code: ['93285974'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 93,
@@ -652,6 +744,7 @@ export const PRODUCTS = [
     name: 'FLOTANTE DE GASOLINA PARA LUV DMAX 3.5',
     code: ['8-97943178-0'],
     brand: 'ISUZU',
+    imageSize: '80%',
   },
   {
     id: 94,
@@ -659,6 +752,7 @@ export const PRODUCTS = [
     name: 'FLOTANTE DE GASOLINA PARA SILVERADO',
     code: ['19468425'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 95,
@@ -666,6 +760,7 @@ export const PRODUCTS = [
     name: 'INYECTOR DE AVEO LARGO - 4 HUECOS (05-10)',
     code: ['96386780'],
     brand: 'GM',
+    imageSize: '70%',
   },
   {
     id: 96,
@@ -673,6 +768,7 @@ export const PRODUCTS = [
     name: 'GORROS DE VÁLVULA PARA LUV DMAX (PAQ 10/GASOIL)',
     code: ['897120-3070'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 97,
@@ -680,6 +776,7 @@ export const PRODUCTS = [
     name: 'bomba de gasolina PARA AVEO/CORSA/OPTRA/SPARK',
     code: ['2068'],
     brand: 'ACDELCO',
+    imageSize: '80%',
   },
   {
     id: 98,
@@ -687,6 +784,7 @@ export const PRODUCTS = [
     name: 'bomba de gasolina PARA FIESTA/EXPLORER/TRITON',
     code: ['4X4U-9350-AA'],
     brand: 'MOTORCRAFT',
+    imageSize: '80%',
   },
   {
     id: 99,
@@ -694,6 +792,7 @@ export const PRODUCTS = [
     name: 'bomba de gasolina PARA YARIS/COROLLA/HILUX',
     code: ['23220-OP010'],
     brand: 'TOYOTA',
+    imageSize: '80%',
   },
   {
     id: 100,
@@ -701,6 +800,7 @@ export const PRODUCTS = [
     name: 'bomba de gasolina PARA ELANTRA/TUCSON/GETZ/ACCENT',
     code: ['HIC2101-210188'],
     brand: 'HYUNDAI',
+    imageSize: '80%',
   },
   {
     id: 101,
@@ -708,6 +808,7 @@ export const PRODUCTS = [
     name: 'KIT DE TIEMPO PARA GRAND VITARA 2.0 4CL / J20',
     code: ['J20-77e00'],
     brand: 'SUZUKI',
+    imageSize: '80%',
   },
   {
     id: 102,
@@ -715,6 +816,7 @@ export const PRODUCTS = [
     name: 'KIT DE TIEMPO PARA EXPLORER/MUSTANG/RANGER 4.0 (4 CADENAS)',
     code: ['TK-76080'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 103,
@@ -722,6 +824,7 @@ export const PRODUCTS = [
     name: 'KIT DE clutch PARA CORSA 1.6',
     code: ['GMK055'],
     brand: 'LUK',
+    imageSize: '80%',
   },
   {
     id: 104,
@@ -729,6 +832,7 @@ export const PRODUCTS = [
     name: 'KIT DE clutch PARA AVEO',
     code: ['96468826'],
     brand: 'LUK',
+    imageSize: '80%',
   },
   {
     id: 105,
@@ -736,6 +840,7 @@ export const PRODUCTS = [
     name: 'KIT DE clutch PARA SPARK ',
     code: ['96325011'],
     brand: 'LUK',
+    imageSize: '80%',
   },
   {
     id: 106,
@@ -743,6 +848,7 @@ export const PRODUCTS = [
     name: 'MANILLA DELANTERA EXTERNA IZQUIERDA PARA CHEVROLET AVEO',
     code: ['96541631'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 107,
@@ -750,6 +856,7 @@ export const PRODUCTS = [
     name: 'MANILLA INTERNA DERECHA PARA AVEO',
     code: ['96462710 - DERECHA', '96462709 - IZQUIERDA'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 108,
@@ -757,6 +864,7 @@ export const PRODUCTS = [
     name: 'MANILLA EXTERNA DELANTERA PARA SPARK / IZQUIERDA - DERECHA',
     code: ['96601473 - DERECHA', '96601472 - IZQUIERDA'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 109,
@@ -764,6 +872,7 @@ export const PRODUCTS = [
     name: 'MANILLA EXTERNA DELANTERA PARA SPARK',
     code: ['96601473'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 110,
@@ -771,6 +880,7 @@ export const PRODUCTS = [
     name: 'MANILLA EXTERNA TRASERA IZQ PARA SPARK',
     code: ['96601474'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 111,
@@ -778,6 +888,7 @@ export const PRODUCTS = [
     name: 'MANILLA EXTERNA TRASERA DERECHA PARA SPARK',
     code: ['96601475'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 112,
@@ -785,6 +896,7 @@ export const PRODUCTS = [
     name: 'MANILLA EXTERNA COMPUERTA TRASERA PARA GRAND VITARA 2008',
     code: ['82850-65D11-5PKT'],
     brand: 'SUZUKI',
+    imageSize: '80%',
   },
   {
     id: 113,
@@ -792,6 +904,7 @@ export const PRODUCTS = [
     name: 'FAROS DELANTEROS PARA AVEO (2006-2010)',
     code: ['96408151'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 114,
@@ -799,6 +912,7 @@ export const PRODUCTS = [
     name: 'PALANCA DE CAMBIOS PARA CORSA',
     code: ['93382834'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 115,
@@ -806,6 +920,7 @@ export const PRODUCTS = [
     name: 'pomo palanca de velocidades PARA ARAUCA (CON FORRO)',
     code: ['S12-1703540'],
     brand: 'CHERY',
+    imageSize: '80%',
   },
   {
     id: 116,
@@ -813,6 +928,7 @@ export const PRODUCTS = [
     name: 'PATÍN CADENA PARA FIESTA KA/ECOSPORT 1.6 (AMARILLO)',
     code: ['XS6E-6N256-AD'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 117,
@@ -820,6 +936,7 @@ export const PRODUCTS = [
     name: 'PIñÓn de kilometraje PARA AVEO',
     code: ['90375764'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 118,
@@ -827,6 +944,7 @@ export const PRODUCTS = [
     name: 'PISTONES DE FIESTA STD',
     code: ['X56E-6012-G1H'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 119,
@@ -834,6 +952,7 @@ export const PRODUCTS = [
     name: 'PISTONES DE AVEO 0.20 (0.50)',
     code: ['96389108-020'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 120,
@@ -841,6 +960,7 @@ export const PRODUCTS = [
     name: 'POLEA ACANALADA PARA FORD FIESTA/ KA /ECOSPORT',
     code: ['D-38008'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 121,
@@ -848,6 +968,7 @@ export const PRODUCTS = [
     name: 'POLEA LOCA PaRA G/VITARA V6 JIII',
     code: ['17540-66J00'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 122,
@@ -855,6 +976,7 @@ export const PRODUCTS = [
     name: 'RADIADOR DE ARAUCA',
     code: ['S21-1301110'],
     brand: 'CHERY',
+    imageSize: '80%',
   },
   {
     id: 123,
@@ -862,6 +984,7 @@ export const PRODUCTS = [
     name: 'RADIADOR DE AVEO AUTOMÁTICO 1.6',
     code: ['96536526'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 124,
@@ -869,6 +992,7 @@ export const PRODUCTS = [
     name: 'RADIADOR DE FIESTA SINCRÓNICO',
     code: ['2S65-8005-AB'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 125,
@@ -876,6 +1000,7 @@ export const PRODUCTS = [
     name: 'tanque de radiador PARA AVEO 438MM/46MM (PAR)',
     code: ['PO-7756'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 126,
@@ -883,6 +1008,7 @@ export const PRODUCTS = [
     name: 'tanque de radiador PARA CORSA  279MM x 48MM (PAR)',
     code: ['GM-2190'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 127,
@@ -890,6 +1016,7 @@ export const PRODUCTS = [
     name: 'tanque de radiador PARA MONTANA (PAR)',
     code: ['GM-1118'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 128,
@@ -897,6 +1024,7 @@ export const PRODUCTS = [
     name: 'tanque de radiador PARA SILVERADO (PAR)',
     code: ['GM-5358'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 129,
@@ -904,6 +1032,7 @@ export const PRODUCTS = [
     name: 'tanque de radiador PARA FIESTA/ECO SPORT/BALITA (PAR)',
     code: ['FO-3797'],
     brand: 'MOTORCRAFT',
+    imageSize: '80%',
   },
   {
     id: 130,
@@ -911,6 +1040,7 @@ export const PRODUCTS = [
     name: 'REGULADOR PRESIÓN GASOLINA PARA SILVERADO',
     code: ['1-89017382'],
     brand: 'ACDELCO',
+    imageSize: '80%',
   },
   {
     id: 131,
@@ -918,6 +1048,7 @@ export const PRODUCTS = [
     name: 'REGULADOR PRESIÓN GASOLINA PARA FIESTA POWER/ PALIO/ GOL/ PEUGEOT',
     code: ['F8ZZ9C968AA'],
     brand: 'MOTORCRAFT',
+    imageSize: '80%',
   },
   {
     id: 132,
@@ -925,6 +1056,7 @@ export const PRODUCTS = [
     name: 'REGULADOR PRESIÓN GASOLINA PARA AVEO',
     code: ['96423299'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 133,
@@ -932,6 +1064,7 @@ export const PRODUCTS = [
     name: 'SENSOR DE ENTRADA PARA CAJA DE OPTRA',
     code: ['93745940'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 134,
@@ -939,6 +1072,7 @@ export const PRODUCTS = [
     name: 'SENSOR INTERRUPTOR PEDAL FRENO PARA AVEO/OPTRA/SPARK',
     code: ['96874571'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 135,
@@ -946,6 +1080,7 @@ export const PRODUCTS = [
     name: 'SENSOR IAC DE AVEO',
     code: ['93744675'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 136,
@@ -953,6 +1088,7 @@ export const PRODUCTS = [
     name: 'SENSOR IAC FIESTA MOVE MAX 1.6',
     code: ['2S6A-9F715-BA'],
     brand: 'MOTORCRAFT',
+    imageSize: '80%',
   },
   {
     id: 137,
@@ -960,6 +1096,7 @@ export const PRODUCTS = [
     name: 'SENSOR PRESIÓN ACEITE PARA SILVERADO 05-08',
     code: ['12616646'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 138,
@@ -967,6 +1104,7 @@ export const PRODUCTS = [
     name: 'SENSOR IAC DE OPTRA',
     code: ['93744875'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 139,
@@ -974,6 +1112,7 @@ export const PRODUCTS = [
     name: 'SENSOR IAC LUV DMAX',
     code: ['8-9718178-0'],
     brand: 'ISUZU',
+    imageSize: '80%',
   },
   {
     id: 140,
@@ -981,6 +1120,7 @@ export const PRODUCTS = [
     name: 'SENSOR IAC PARA SILVERADO BLAZER/ CHEYENNE',
     code: ['17113209'],
     brand: 'ACDELCO',
+    imageSize: '80%',
   },
   {
     id: 141,
@@ -988,6 +1128,7 @@ export const PRODUCTS = [
     name: 'SENSOR IAC PARA TERIOS 1.3 1.5/STEEM/JIMMY',
     code: ['22270-11020'],
     brand: 'TOYOTA',
+    imageSize: '80%',
   },
   {
     id: 142,
@@ -995,6 +1136,7 @@ export const PRODUCTS = [
     name: 'SENSOR MAP PARA CORSA/LUV DMAX/ OPTRA/ NUVIRA',
     code: ['12569240'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 143,
@@ -1002,6 +1144,7 @@ export const PRODUCTS = [
     name: 'SENSOR MAP DE AVEO',
     code: ['25184081'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 144,
@@ -1009,6 +1152,7 @@ export const PRODUCTS = [
     name: 'SENSOR DE OXIGENO PARA AVEO (2 CABLES)',
     code: ['95995630'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 145,
@@ -1016,6 +1160,7 @@ export const PRODUCTS = [
     name: 'SENSOR DE OXIGENO PARA FIESTA POWER',
     code: ['AS55-9F472-AA'],
     brand: 'MOTORCRAFT',
+    imageSize: '80%',
   },
   {
     id: 146,
@@ -1023,6 +1168,7 @@ export const PRODUCTS = [
     name: 'SENSOR PARE NEUTRO PARA OPTRA',
     code: ['93742966'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 147,
@@ -1030,6 +1176,7 @@ export const PRODUCTS = [
     name: 'SENSOR POSICIÓN ÁRBOL DE LEVA PARA AVEO',
     code: ['96253544'],
     brand: 'GM',
+    imageSize: '70%',
   },
   {
     id: 148,
@@ -1037,6 +1184,7 @@ export const PRODUCTS = [
     name: 'SENSOR POSICIÓN ÁRBOL DE LEVA PARA SILVERADO',
     code: ['12591720'],
     brand: 'ACDELCO',
+    imageSize: '80%',
   },
   {
     id: 149,
@@ -1044,6 +1192,7 @@ export const PRODUCTS = [
     name: 'SENSOR POSICIÓN DE cigüeñal PARA AVEO 1.6',
     code: ['96253542'],
     brand: 'KOREA',
+    imageSize: '80%',
   },
   {
     id: 150,
@@ -1051,6 +1200,7 @@ export const PRODUCTS = [
     name: 'SENSOR POSICIÓN DE cigüeñal PARA LUV DMAX',
     code: ['8-97258523-0'],
     brand: 'ISUZU',
+    imageSize: '80%',
   },
   {
     id: 151,
@@ -1058,6 +1208,7 @@ export const PRODUCTS = [
     name: 'SENSOR POSICIÓN DE cigüeñal PARA CORSA/MONTANA/PALIO 1.8',
     code: ['90451442'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 152,
@@ -1065,6 +1216,7 @@ export const PRODUCTS = [
     name: 'SENSOR POSICIÓN DE cigüeñal PARA SILVERADO',
     code: ['12585546'],
     brand: 'ACDELCO',
+    imageSize: '80%',
   },
   {
     id: 153,
@@ -1072,6 +1224,7 @@ export const PRODUCTS = [
     name: 'SENSOR TPS PARA AVEO/CORSA/OPTRA DSG/NUBIRA',
     code: ['ICD00123'],
     brand: 'DELPHI',
+    imageSize: '80%',
   },
   {
     id: 154,
@@ -1079,6 +1232,7 @@ export const PRODUCTS = [
     name: 'TAPA RESERVORIO DE AGUA PARA FORD FIESTA/KA/ECOSPORT',
     code: ['2S65-8100-AA'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 155,
@@ -1086,6 +1240,7 @@ export const PRODUCTS = [
     name: 'TAPA DE REFRIGERANTE PARA AVEO/OPTRA/CORSA/SPARK',
     code: ['96420303-C'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 156,
@@ -1093,6 +1248,7 @@ export const PRODUCTS = [
     name: 'TAPA ENVASE REFRIGERANTE PARA SILVERADO',
     code: ['15075118'],
     brand: 'ACDELCO',
+    imageSize: '80%',
   },
   {
     id: 157,
@@ -1100,6 +1256,7 @@ export const PRODUCTS = [
     name: 'TAPA vÁlvula DE AVEO (SIN CODO DE GASES)',
     code: ['25192208'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 158,
@@ -1107,6 +1264,7 @@ export const PRODUCTS = [
     name: 'TAQUETE PARA AVEO/OPTRA DSG (SIN CODO DE GASES)',
     code: ['96184997-INA'],
     brand: 'INA',
+    imageSize: '80%',
   },
   {
     id: 159,
@@ -1114,6 +1272,7 @@ export const PRODUCTS = [
     name: 'TAQUETE PARA FORD FIESTA POWER/KA/FIESTA BALITA',
     code: ['XS6E-6C501-AC'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 160,
@@ -1121,6 +1280,7 @@ export const PRODUCTS = [
     name: 'PORTA TAQUETES PARA SILVERADO RH/LH (X1)',
     code: ['12669185 , 12669184'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 161,
@@ -1128,6 +1288,7 @@ export const PRODUCTS = [
     name: 'MARTILLO DE CORSA',
     code: ['90409194'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 162,
@@ -1135,6 +1296,7 @@ export const PRODUCTS = [
     name: 'TERMOSTATO DE FIESTA',
     code: ['MZS6G-8A586'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 163,
@@ -1142,6 +1304,7 @@ export const PRODUCTS = [
     name: 'TERMOSTATO DE AVEO CON TOMA DE AGUA',
     code: ['96407677'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 164,
@@ -1149,6 +1312,7 @@ export const PRODUCTS = [
     name: 'TERMOSTATO luv dmax 3.5 CON TOMA DE AGUA',
     code: ['8-97220077-0'],
     brand: 'ISUZU',
+    imageSize: '80%',
   },
   {
     id: 165,
@@ -1156,6 +1320,7 @@ export const PRODUCTS = [
     name: 'TERMOSTATO DE SILVERADO',
     code: ['1260017'],
     brand: 'ACDELCO',
+    imageSize: '80%',
   },
   {
     id: 166,
@@ -1163,6 +1328,7 @@ export const PRODUCTS = [
     name: 'TUBO DE agua para corsa  ',
     code: ['90448854'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 167,
@@ -1170,6 +1336,7 @@ export const PRODUCTS = [
     name: 'VáLVULA DE TEMPERATURA PARA ARAUCA/ORINOCO',
     code: ['A11-3617011'],
     brand: 'CHERY',
+    imageSize: '80%',
   },
   {
     id: 168,
@@ -1177,6 +1344,7 @@ export const PRODUCTS = [
     name: 'VáLVULA ADMISIóN PARA AVEO 1.6 (96376881)',
     code: ['96896007'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 169,
@@ -1184,6 +1352,7 @@ export const PRODUCTS = [
     name: 'VáLVULA PCV PARA AVEO Y OPTRA DSG',
     code: ['96495288'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 170,
@@ -1191,6 +1360,7 @@ export const PRODUCTS = [
     name: 'VáLVULA DE PRESIóN ACEITE PARA AVEO',
     code: ['95961350'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 171,
@@ -1198,6 +1368,7 @@ export const PRODUCTS = [
     name: 'VáLVULA DE PRESIóN ACEITE C',
     code: ['SW-5440'],
     brand: 'FORD',
+    imageSize: '50%',
   },
   {
     id: 172,
@@ -1205,6 +1376,7 @@ export const PRODUCTS = [
     name: 'VáLVULA DE PRESIóN ACEITE PARA SILVERADO/TAHOE/ AVALANCHE (11-15)',
     code: ['12621234'],
     brand: 'ACDELCO',
+    imageSize: '50%',
   },
   {
     id: 173,
@@ -1212,6 +1384,7 @@ export const PRODUCTS = [
     name: 'VáLVULA DE RETROCESO PARA ARAUCA/X1/QQ6 ORINOCO/TIGGO',
     code: ['015301960AAN'],
     brand: 'CHERY',
+    imageSize: '80%',
   },
   {
     id: 174,
@@ -1219,6 +1392,7 @@ export const PRODUCTS = [
     name: 'BIELETA PARA ARAUCA/X1/QQ6',
     code: ['S21-2906030'],
     brand: 'CHERY',
+    imageSize: '80%',
   },
   {
     id: 175,
@@ -1226,6 +1400,7 @@ export const PRODUCTS = [
     name: 'BIELETA DELANTERA PARA SILVERADO TAHOE AVALANCHE 5,3',
     code: ['25918049'],
     brand: 'ACDELCO',
+    imageSize: '80%',
   },
   {
     id: 176,
@@ -1233,6 +1408,7 @@ export const PRODUCTS = [
     name: 'BIELETA DE AVEO',
     code: ['96391875'],
     brand: 'GM',
+    imageSize: '30%',
   },
   {
     id: 177,
@@ -1240,6 +1416,7 @@ export const PRODUCTS = [
     name: 'BIELETA DE orinoco (TRASERA)',
     code: ['M11-2916030'],
     brand: 'CHERY',
+    imageSize: '80%',
   },
   {
     id: 178,
@@ -1247,6 +1424,7 @@ export const PRODUCTS = [
     name: 'BIELETA DELANTERA PARA EXPLORER EDDIE BAUER/RANGER/SPORT TRACK/FORTALEZA',
     code: ['2L2Z-5K483'],
     brand: 'FORD',
+    imageSize: '30%',
   },
   {
     id: 179,
@@ -1254,6 +1432,7 @@ export const PRODUCTS = [
     name: 'BIELETA DE LUV DMAX',
     code: ['8-97944569-0'],
     brand: 'ISUZU',
+    imageSize: '80%',
   },
   {
     id: 180,
@@ -1261,6 +1440,7 @@ export const PRODUCTS = [
     name: 'BIELETA DE FIESTA',
     code: ['2S65-B428-BA'],
     brand: 'FORD',
+    imageSize: '40%',
   },
   {
     id: 181,
@@ -1268,6 +1448,7 @@ export const PRODUCTS = [
     name: 'BUJE DE MESETA PARA AVEO PEQUEÑO',
     code: ['96535087'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 182,
@@ -1275,6 +1456,7 @@ export const PRODUCTS = [
     name: 'BUJE DE MESETA PARA AVEO GRANDE',
     code: ['96535088'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 183,
@@ -1282,6 +1464,7 @@ export const PRODUCTS = [
     name: 'MESETA DE AVEO LH/RH',
     code: ['96535082 (LH)', '96535081 (RH)'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 184,
@@ -1289,6 +1472,7 @@ export const PRODUCTS = [
     name: 'MESETA DE SPARK / MATIZ',
     code: ['96316765'],
     brand: 'GM',
+    imageSize: '40%',
   },
   {
     id: 185,
@@ -1296,6 +1480,7 @@ export const PRODUCTS = [
     name: 'MESETA SUPERIOR PARA SILVERADO',
     code: ['25812725'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 186,
@@ -1303,6 +1488,7 @@ export const PRODUCTS = [
     name: 'araña de spark',
     code: ['96284385'],
     brand: 'GM',
+    imageSize: '40%',
   },
   {
     id: 187,
@@ -1310,6 +1496,7 @@ export const PRODUCTS = [
     name: 'MUÑóN de FIESTA',
     code: ['2S653395AA'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 188,
@@ -1317,6 +1504,7 @@ export const PRODUCTS = [
     name: 'MUÑóN de ORINOCO',
     code: ['M11-2909060'],
     brand: 'CHERY',
+    imageSize: '80%',
   },
   {
     id: 189,
@@ -1324,6 +1512,7 @@ export const PRODUCTS = [
     name: 'RODAMIENTO DE AVEO DELANTERO',
     code: ['DAC-346437'],
     brand: 'KOYO',
+    imageSize: '80%',
   },
   {
     id: 190,
@@ -1331,6 +1520,7 @@ export const PRODUCTS = [
     name: 'RODAMIENTO DELANTERO PARA OPTRA',
     code: ['DAC-3974W'],
     brand: 'KOYO',
+    imageSize: '80%',
   },
   {
     id: 191,
@@ -1338,6 +1528,7 @@ export const PRODUCTS = [
     name: 'RODAMIENTO DELANTERO PARA SPARK',
     code: ['L68149-11'],
     brand: 'KOYO',
+    imageSize: '80%',
   },
   {
     id: 192,
@@ -1345,6 +1536,7 @@ export const PRODUCTS = [
     name: 'RODAMIENTO TRASERO PARA AVEO/LOGAN/SYMBOL/TWINGO',
     code: ['DAC-25520037'],
     brand: 'KOYO',
+    imageSize: '80%',
   },
   {
     id: 193,
@@ -1352,6 +1544,7 @@ export const PRODUCTS = [
     name: 'RÓTULA DIRECCIóN PARA AVEO/NUBIRA 1.6',
     code: ['93740721'],
     brand: 'GM',
+    imageSize: '40%',
   },
   {
     id: 194,
@@ -1359,6 +1552,7 @@ export const PRODUCTS = [
     name: 'RÓTULA DIRECCIóN PARA ARAUCA/QQ6/X1',
     code: ['S21-3003010BB'],
     brand: 'CHERY',
+    imageSize: '40%',
   },
   {
     id: 195,
@@ -1366,6 +1560,7 @@ export const PRODUCTS = [
     name: 'RÓTULA DIRECCIóN PARA FIESTA POWER/ECOSPORT',
     code: ['2S6C-3280-LB'],
     brand: 'FORD',
+    imageSize: '40%',
   },
   {
     id: 196,
@@ -1373,6 +1568,7 @@ export const PRODUCTS = [
     name: 'RÓTULA DIRECCIóN PARA ORINOCO 1.8',
     code: ['M11-3401300'],
     brand: 'CHERY',
+    imageSize: '80%',
   },
   {
     id: 197,
@@ -1380,6 +1576,7 @@ export const PRODUCTS = [
     name: 'RÓTULA HEMBRA ROSCA FINA PARA CORSA',
     code: ['322155'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 198,
@@ -1387,6 +1584,7 @@ export const PRODUCTS = [
     name: 'RÓTULA DE VITARA XL5 XL7',
     code: ['48830-65D00'],
     brand: 'SUZUKI',
+    imageSize: '80%',
   },
   {
     id: 199,
@@ -1394,6 +1592,7 @@ export const PRODUCTS = [
     name: 'TERMINAL DE ARAUCA',
     code: ['S21-300305CBB'],
     brand: 'CHERY',
+    imageSize: '80%',
   },
   {
     id: 200,
@@ -1401,6 +1600,7 @@ export const PRODUCTS = [
     name: 'TERMINAL EXTERNO RH/LH PARA AVEO',
     code: ['93740722 (LH)', '93740723 (RH)'],
     brand: '93740722',
+    imageSize: '80%',
   },
   {
     id: 201,
@@ -1408,6 +1608,7 @@ export const PRODUCTS = [
     name: 'TERMINAL TERMINAL LH / RH',
     code: ['75553290AA (RH)', '75553289AA (LH)'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 202,
@@ -1415,6 +1616,7 @@ export const PRODUCTS = [
     name: 'TERMINAL DE ORINOCO ',
     code: ['M11-3401330'],
     brand: 'CHERY',
+    imageSize: '50%',
   },
   {
     id: 203,
@@ -1422,6 +1624,7 @@ export const PRODUCTS = [
     name: 'TERMINAL GRAND VITARA LH / RH',
     code: ['48810-65D00 (RH)', '48820-65D00 (LH)'],
     brand: 'SUZUKI',
+    imageSize: '80%',
   },
   {
     id: 204,
@@ -1429,6 +1632,7 @@ export const PRODUCTS = [
     name: 'TRICETA DE FIESTA',
     code: ['TPF072 T02- (21TX30)'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 205,
@@ -1436,6 +1640,7 @@ export const PRODUCTS = [
     name: 'TRICETA DE SPARK',
     code: ['48-44130  (19 DIENTES)'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 206,
@@ -1443,6 +1648,7 @@ export const PRODUCTS = [
     name: 'TERMOSTATO DE EXPLORER CON TOMA DE AGUA Y VÁLVULA',
     code: ['2L2Z8592BA'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 207,
@@ -1450,6 +1656,7 @@ export const PRODUCTS = [
     name: 'TERMOSTATO DE ECOSPORT 2.0 MAZDA 3-5-6 (SOLO TOMA DE AGUA)',
     code: ['6S4Z-8K556-A'],
     brand: 'FORD',
+    imageSize: '80%',
   },
   {
     id: 208,
@@ -1457,6 +1664,7 @@ export const PRODUCTS = [
     name: 'TERMOSTATO DE ARAUCA/ORINOCO ',
     code: ['481H-1306020'],
     brand: 'CHERY',
+    imageSize: '80%',
   },
   {
     id: 209,
@@ -1464,6 +1672,7 @@ export const PRODUCTS = [
     name: 'TERMOSTATO DE CRUZE SOLO TOMA DE AGUA',
     code: ['96984103'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 210,
@@ -1471,6 +1680,7 @@ export const PRODUCTS = [
     name: 'TERMOSTATO DE GRAND VITARA PARA XL5 XL7 J3 2.5 2.7',
     code: ['17670-77E11'],
     brand: 'SUZUKI',
+    imageSize: '80%',
   },
   {
     id: 211,
@@ -1478,6 +1688,7 @@ export const PRODUCTS = [
     name: 'BOMBA DIRECCIÓN HIDRÁULICA PARA AVEO/ OPTRA DESING',
     code: ['95216830'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 212,
@@ -1485,6 +1696,7 @@ export const PRODUCTS = [
     name: 'BOMBÍN CLUTCH SUPERIOR PARA GRAND VITARA',
     code: ['23810-65D00'],
     brand: 'SUZUKI',
+    imageSize: '80%',
   },
   {
     id: 213,
@@ -1492,6 +1704,7 @@ export const PRODUCTS = [
     name: 'BOMBÍN CLUTCH SUPERIOR PARA OPTRA',
     code: ['96494422'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 214,
@@ -1499,6 +1712,7 @@ export const PRODUCTS = [
     name: 'CABLES DE BUJÍA PARA AVEO',
     code: ['96497773'],
     brand: 'ACDELCO',
+    imageSize: '80%',
   },
   {
     id: 215,
@@ -1506,6 +1720,7 @@ export const PRODUCTS = [
     name: 'CABLES DE BUJÍA PARA SILVERADO',
     code: ['12192133'],
     brand: 'ACDELCO',
+    imageSize: '80%',
   },
   {
     id: 216,
@@ -1513,6 +1728,7 @@ export const PRODUCTS = [
     name: 'DAMPER DE CORSA',
     code: ['90409974'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 217,
@@ -1520,6 +1736,7 @@ export const PRODUCTS = [
     name: 'FARO VIDRIO COMPLETO PARA CORSA (PAR)',
     code: ['93370364'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 218,
@@ -1527,6 +1744,7 @@ export const PRODUCTS = [
     name: 'FARO NEBLINA PARA AVEO (2006-10) (PAR)',
     code: ['96540153'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 219,
@@ -1534,6 +1752,7 @@ export const PRODUCTS = [
     name: 'FARO NEBLINA PARA CORSA (PAR)',
     code: ['93291770'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 220,
@@ -1541,6 +1760,7 @@ export const PRODUCTS = [
     name: 'FARO NEBLINA PARA SILVERADO (PAR)',
     code: ['2592160'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 221,
@@ -1548,6 +1768,7 @@ export const PRODUCTS = [
     name: 'FARO NEBLINA PARA corolla NS 06 08 (PAR)',
     code: ['81210-0B050'],
     brand: 'TOYOTA',
+    imageSize: '80%',
   },
   {
     id: 222,
@@ -1555,6 +1776,7 @@ export const PRODUCTS = [
     name: 'FILTRO DE ACEITE PARA AVEO',
     code: ['PF47'],
     brand: 'ACDELCO',
+    imageSize: '80%',
   },
   {
     id: 223,
@@ -1562,6 +1784,7 @@ export const PRODUCTS = [
     name: 'KIT DE EMPACADURA PARA VITARA',
     code: ['1104465862'],
     brand: 'ISUZU',
+    imageSize: '80%',
   },
   {
     id: 224,
@@ -1569,6 +1792,7 @@ export const PRODUCTS = [
     name: 'MANGUERA DUCTO PURIFICADOR PARA AVEO',
     code: ['96439858'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 225,
@@ -1576,6 +1800,7 @@ export const PRODUCTS = [
     name: 'MANGUERA PURIFICADOR PARA corsa/chevy c2',
     code: ['93335518'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 226,
@@ -1583,6 +1808,7 @@ export const PRODUCTS = [
     name: 'MANGUERA superior PARA aveo',
     code: ['96536532'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 227,
@@ -1590,6 +1816,7 @@ export const PRODUCTS = [
     name: 'sensor de kilometraje PARA aveo',
     code: ['96190708'],
     brand: 'GM',
+    imageSize: '80%',
   },
   {
     id: 228,
@@ -1597,6 +1824,7 @@ export const PRODUCTS = [
     name: 'sensor de retroceso PARA aveo',
     code: ['90245033'],
     brand: 'GM',
+    imageSize: '50%',
   },
   {
     id: 229,
@@ -1604,5 +1832,6 @@ export const PRODUCTS = [
     name: 'TENSOR CORREA UNICA PARA FIESTA',
     code: ['7S4Q-10K018-A'],
     brand: 'FORD',
+    imageSize: '80%',
   },
 ]

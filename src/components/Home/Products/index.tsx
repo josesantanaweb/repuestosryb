@@ -1,3 +1,4 @@
+import Skeleton from '@/components/Common/Skeleton'
 import { PRODUCTS } from '@/data/products'
 import { useEffect, useState } from 'react'
 
@@ -11,6 +12,7 @@ interface ProductProps {
     code: string[]
     brand: string
     tag?: string
+    imageSize?: string
   }
 }
 
@@ -30,7 +32,8 @@ const Product = ({ product }: ProductProps) => {
         <img
           src={`/images/products/${product.image}.png`}
           alt={product.name}
-          className="w-[80%] transition-all scale-100 hover:scale-110"
+          className={`transition-all scale-100 hover:scale-110`}
+          width={product.imageSize}
         />
       </div>
       <h3 className="mb-2 text-base font-semibold uppercase text-primary">{product.name}</h3>
@@ -73,9 +76,6 @@ const Products = () => {
     }
   }, [tabActive])
 
-  console.log('products', products)
-  console.log('tabActive', tabActive)
-
   return (
     <div className="w-full bg-white py-14" id="catalogo">
       <div className="container">
@@ -101,9 +101,9 @@ const Products = () => {
           </div>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-5">
-          {products.map((product: any) => (
-            <Product key={product.id} product={product} />
-          ))}
+          {loading
+            ? PRODUCTS.map((product) => <Skeleton key={product.id} />)
+            : PRODUCTS.map((product) => <Product key={product.id} product={product} />)}
         </div>
       </div>
     </div>
