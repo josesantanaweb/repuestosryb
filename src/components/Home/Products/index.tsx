@@ -103,7 +103,7 @@ const Products = () => {
         <div className="grid grid-cols-1 lg:grid-cols-5">
           {loading
             ? PRODUCTS.map((product) => <Skeleton key={product.id} />)
-            : PRODUCTS.map((product) => <Product key={product.id} product={product} />)}
+            : products.map((product) => <Product key={product.id} product={product} />)}
         </div>
       </div>
     </div>
