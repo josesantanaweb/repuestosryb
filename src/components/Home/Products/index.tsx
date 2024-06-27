@@ -1,4 +1,3 @@
-import Skeleton from '@/components/Common/Skeleton'
 import { PRODUCTS } from '@/data/products'
 import { useEffect, useState } from 'react'
 
@@ -24,7 +23,7 @@ const Product = ({ product }: ProductProps) => {
             product.tag === 'Nuevo' ? 'bg-primary' : 'bg-secondary'
           }`}
         >
-          {product.tag}
+          {product.tag ?? ''}
         </span>
       )}
       <div className="flex items-center justify-center mb-3 overflow-hidden bg-white-200 h-[270px]">
@@ -50,13 +49,32 @@ const Product = ({ product }: ProductProps) => {
 const Products = () => {
   const [tabActive, setTabActive] = useState('Todos')
   const [loading, setLoading] = useState(true)
+  const [products, setProducts] = useState(PRODUCTS)
 
   useEffect(() => {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 2000)
+    }, 1000)
   }, [])
+
+  useEffect(() => {
+    if (tabActive === 'Todos') {
+      setProducts(PRODUCTS)
+    }
+    if (tabActive === 'Nuevos') {
+      setProducts(PRODUCTS.filter((product) => product.image === '96423299'))
+    }
+    if (tabActive === 'Mas Vendidos') {
+      setProducts(PRODUCTS.filter((product) => product.image === '93745940'))
+    }
+    if (tabActive === 'Ofertas') {
+      setProducts(PRODUCTS.filter((product) => product.image === '96874571'))
+    }
+  }, [tabActive])
+
+  console.log('products', products)
+  console.log('tabActive', tabActive)
 
   return (
     <div className="w-full bg-white py-14" id="catalogo">
@@ -83,9 +101,9 @@ const Products = () => {
           </div>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-5">
-          {loading
-            ? PRODUCTS.map((product) => <Skeleton key={product.id} />)
-            : PRODUCTS.map((product) => <Product key={product.id} product={product} />)}
+          {products.map((product: any) => (
+            <Product key={product.id} product={product} />
+          ))}
         </div>
       </div>
     </div>
