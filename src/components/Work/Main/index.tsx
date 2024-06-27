@@ -5,7 +5,7 @@ const Main = () => {
     <main className="px-5 py-5 border-b-4 lg:py-0 main border-secondary lg:px-0">
       <div className="banner"></div>
       <div className="relative z-10 flex flex-col items-center justify-center max-w-[70rem] mx-auto]">
-        <h1 className="text-[2rem] lg:text-[3rem] text-secondary text-center font-bold font-kanit opacity-15 leading-9 mb-4 lg:mb-0">
+        <h1 className="text-[2rem] lg:text-[3rem] text-secondary text-center font-bold font-kanit opacity-15 leading-9 mb-6 lg:mb-0">
           ¿QUIERES FORMAR PARTE DE NUESTRO EQUIPO?
         </h1>
         <h1 className="text-[1.5rem] lg:text-[2rem] text-primary italic text-center font-semibold font-kanit mb-8 drop-shadow-[0_4px_4px_rgba(1,44,114,0.20)]">
