@@ -24,7 +24,7 @@ export const PRODUCTS = [
   {
     id: 4,
     image: '95015324',
-    name: 'BASE DE AMORTIGUADOR PARA SPARK',
+    name: 'BASE DE AMORTIGUADOR PARA SPARK (PLANA)',
     code: ['95015324'],
     brand: 'GM',
     tag: '15%',
@@ -46,7 +46,7 @@ export const PRODUCTS = [
   {
     id: 7,
     image: 'S12-1001510',
-    name: 'BASE DE MOTOR FRONTAL DELANT PARA ARAUCA',
+    name: 'BASE DE MOTOR FRONTAL DELANT. PARA ARAUCA',
     code: ['S12-1001510'],
     brand: 'CHERY',
     tag: '5%',
@@ -69,7 +69,7 @@ export const PRODUCTS = [
     id: 10,
     image: 'S12-1001310',
     name: 'BASE de motor PARA ARAUCA (DER - IZQ)',
-    code: ['S12-1001310 Derecha', 'S12-1001110 IzquierA'],
+    code: ['S12-1001310 DERECHA', 'S12-1001110 IZQUIERDA'],
     brand: 'CHERY',
   },
   {
@@ -523,7 +523,7 @@ export const PRODUCTS = [
   {
     id: 75,
     image: '55555805',
-    name: 'ESTOPERA cigüeñal TRASERA para cruz',
+    name: 'ESTOPERA cigüeñal TRASERA para cruzE',
     code: ['55555805'],
     brand: 'GM',
   },
@@ -552,7 +552,7 @@ export const PRODUCTS = [
     id: 79,
     image: '89060436',
     name: 'ESTOPERA cigüeñal TRASERA PARA SILVERADO',
-    code: ['589060436'],
+    code: ['89060436'],
     brand: 'GM',
   },
   {
@@ -574,28 +574,28 @@ export const PRODUCTS = [
     image: '94580413',
     name: 'ESTOPERA ÁRBOL DE LEVA PARA AVEO',
     code: ['94580413'],
-    brand: 'sabo',
+    brand: 'SABO',
   },
   {
     id: 83,
     image: '02371BAG',
     name: 'ESTOPERA GUÍA COLLARÍN PARA CORSA',
     code: ['02371BAG'],
-    brand: 'sabo',
+    brand: 'SABO',
   },
   {
     id: 84,
     image: '02373BRG',
     name: 'ESTOPERA SELECTORA DE CAMBIO PARA CORSA',
     code: ['02373BRG'],
-    brand: 'sabo',
+    brand: 'SABO',
   },
   {
     id: 85,
     image: '96814238',
     name: 'CAJA FILTRO DE AIRE para aveo',
     code: ['96814238'],
-    brand: 'gm',
+    brand: 'GM',
   },
   {
     id: 86,
@@ -700,7 +700,7 @@ export const PRODUCTS = [
     image: 'HIC2101-210188',
     name: 'bomba de gasolina PARA ELANTRA/TUCSON/GETZ/ACCENT',
     code: ['HIC2101-210188'],
-    brand: 'HIC2101-210188',
+    brand: 'HYUNDAI',
   },
   {
     id: 101,
@@ -907,9 +907,9 @@ export const PRODUCTS = [
   },
   {
     id: 130,
-    image: '89017382',
+    image: '1-89017382',
     name: 'REGULADOR PRESIÓN GASOLINA PARA SILVERADO',
-    code: ['89017382'],
+    code: ['1-89017382'],
     brand: 'ACDELCO',
   },
   {
@@ -1078,7 +1078,7 @@ export const PRODUCTS = [
     image: '2S65-8100-AA',
     name: 'TAPA RESERVORIO DE AGUA PARA FORD FIESTA/KA/ECOSPORT',
     code: ['2S65-8100-AA'],
-    brand: 'GM',
+    brand: 'FORD',
   },
   {
     id: 155,
@@ -1092,7 +1092,7 @@ export const PRODUCTS = [
     image: '15075118',
     name: 'TAPA ENVASE REFRIGERANTE PARA SILVERADO',
     code: ['15075118'],
-    brand: 'ACDELCOM',
+    brand: 'ACDELCO',
   },
   {
     id: 157,
@@ -1278,9 +1278,9 @@ export const PRODUCTS = [
   },
   {
     id: 183,
-    image: '996535082',
+    image: '96535082',
     name: 'MESETA DE AVEO LH/RH',
-    code: ['996535082 (LH)', '96535081 (RH)'],
+    code: ['96535082 (LH)', '96535081 (RH)'],
     brand: 'GM',
   },
   {
@@ -1407,7 +1407,7 @@ export const PRODUCTS = [
     image: '75553290AA',
     name: 'TERMINAL TERMINAL LH / RH',
     code: ['75553290AA (RH)', '75553289AA (LH)'],
-    brand: '',
+    brand: 'FORD',
   },
   {
     id: 202,
