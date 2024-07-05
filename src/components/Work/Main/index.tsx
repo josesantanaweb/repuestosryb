@@ -12,16 +12,21 @@ const Main = () => {
           REPUESTOS D&B
         </h1>
         <p className="text-[1.125rem] text-black">
-          Somos una empresa líder en la venta al mayor de repuestos de autos de alta calidad, con más de 13 años de
-          experiencia en el sector automotriz y totalmente comprometidos con ofrecer los mejores productos y soluciones
-          para el mercado venezolano.
+          En <span className="font-semibold text-black">Repuestos D&B</span>, las personas que forman parte de nuestra
+          compañía representan lo que somos, una compañía diversa e inclusiva que lleva casi 2 años trabajando con el
+          mismo propósito:{' '}
+          <span className="font-semibold text-black">generar prosperidad, conectando con las personas.</span>
           <br />
-          <br /> Nuestro enfoque se centra en proporcionar no solo piezas de primera categoría, sino también un servicio
-          postventa excepcional que nos distingue en la industria.
           <br />
-          <br /> Trabajamos incansablemente para garantizar la satisfacción total de nuestros clientes, brindando
-          asesoramiento personalizado y una atención dedicada que asegura la máxima eficiencia y confiabilidad en cada
-          una de nuestras entregas.
+          Te vas a divertir con un equipo de personas apasionadas por la compañía y la industria. Aprenderás de nuestro
+          legado pero también serás parte de la transformación que estamos viviendo de la mano de los mejores
+          profesionales.
+          <br />
+          <br />
+          Registra tu perfil en nuestra base de datos para que podamos mantenerte informado de las ofertas de empleo que
+          coincidan con lo que estás buscando
+          <br />
+          <br />
         </p>
       </div>
       <div className="absolute z-10 justify-center hidden w-full lg:flex bottom-5">

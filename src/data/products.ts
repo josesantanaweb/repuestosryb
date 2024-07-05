@@ -256,7 +256,7 @@ export const PRODUCTS = [
     name: 'BUJÍA PUNTA PLATINO PARA AVEO/CRUZE/ELANTRA/GETZ/LANCER SIGNO/MEGANE/LOGAN/TIGGO/LUV DMAX',
     code: ['BKR6EGP'],
     brand: 'NGK',
-    imageSize: '80%',
+    imageSize: '70%',
   },
   {
     id: 33,
@@ -264,7 +264,7 @@ export const PRODUCTS = [
     name: 'BUJÍA DE PLATINO PARA EXPLORER TRITON/RANGER/FOCUS',
     code: ['SP-500'],
     brand: 'MOTORCRAFT',
-    imageSize: '80%',
+    imageSize: '70%',
   },
   {
     id: 34,
@@ -280,7 +280,7 @@ export const PRODUCTS = [
     name: 'BUJÍA DE PLATINO PARA FIESTA POWER/KA/ECOSPORT 1.6/2.0 SUPER DUTY 6.2',
     code: ['SP-411'],
     brand: 'MOTORCRAFT',
-    imageSize: '80%',
+    imageSize: '40%',
   },
   {
     id: 36,
@@ -1360,7 +1360,7 @@ export const PRODUCTS = [
     name: 'VáLVULA DE PRESIóN ACEITE PARA AVEO',
     code: ['95961350'],
     brand: 'GM',
-    imageSize: '80%',
+    imageSize: '40%',
   },
   {
     id: 171,
@@ -1368,7 +1368,7 @@ export const PRODUCTS = [
     name: 'VáLVULA DE PRESIóN ACEITE C',
     code: ['SW-5440'],
     brand: 'FORD',
-    imageSize: '50%',
+    imageSize: '40%',
   },
   {
     id: 172,
@@ -1376,7 +1376,7 @@ export const PRODUCTS = [
     name: 'VáLVULA DE PRESIóN ACEITE PARA SILVERADO/TAHOE/ AVALANCHE (11-15)',
     code: ['12621234'],
     brand: 'ACDELCO',
-    imageSize: '50%',
+    imageSize: '40%',
   },
   {
     id: 173,
