@@ -41,4 +41,10 @@ export const TEAM = [
     name: 'Roberto Ortega',
     position: 'Administradora',
   },
+  {
+    id: 8,
+    image: '08.jpg',
+    name: 'Roberto Ortega',
+    position: 'Administradora',
+  },
 ]
