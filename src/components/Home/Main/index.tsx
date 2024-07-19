@@ -33,7 +33,7 @@ const Main = () => {
         <h1 className="text-[1.5rem] lg:text-[2.5rem] text-secondary uppercase text-center font-bold font-kanit italic mb-5 drop-shadow-[0_4px_4px_rgba(203,0,13,0.20)]">
           ¡Somos tu mayorista de confianza!
         </h1>
-        <p className="text-[0.875rem] lg:text-[1.5rem]">Tenemos todos los repuestos que necesitas al mayor.</p>
+        <p className="text-[0.875rem] lg:text-[1.5rem]">Nuestra garantía respalda cada pieza que distribuimos.</p>
       </div>
       <div className="relative lg:absolute bottom-0 left-0 w-full lg:h-[10rem] bg-primary border-t-[6px] border-secondary">
         <div className="container grid items-center justify-between h-full grid-cols-3 lg:flex">
