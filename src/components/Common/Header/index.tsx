@@ -2,7 +2,7 @@ import { ROUTES } from '@/routes'
 import React, { useState } from 'react'
 import { BiLogoInstagram, BiLogoWhatsapp, BiMenu, BiPhone } from 'react-icons/bi'
 
-import { NavLink as RouterNavLink, useNavigate } from 'react-router-dom'
+import { NavLink as RouterNavLink, useLocation, useNavigate } from 'react-router-dom'
 
 interface NavLinkProps {
   to: string
@@ -20,6 +20,8 @@ const NavLink = ({ to, children, onClick }: NavLinkProps) => {
 
 const Header = () => {
   const navigate = useNavigate()
+  const location = useLocation()
+  const currentPath = location.pathname
   const [open, setOpen] = useState(false)
 
   const handleScroll = (sectionId: string) => (event: any) => {
@@ -39,6 +41,8 @@ const Header = () => {
     setOpen(!open)
   }
 
+  const removeCatalogo = currentPath !== '/' ? ROUTES.filter((item) => item.path !== '/catalogo') : ROUTES
+
   return (
     <header className="relative bg-white border-b border-gray-200">
       <div className="flex justify-center">
@@ -49,7 +53,7 @@ const Header = () => {
               <BiMenu size={24} />
             </span>
             <nav className="hidden absolute top-[70px] right-0 z-20 lg:flex flex-col items-center w-full bg-white lg:flex-row lg:w-auto lg:static">
-              {ROUTES.map((item, index) => (
+              {removeCatalogo.map((item, index) => (
                 <NavLink
                   key={index}
                   to={item.path}
@@ -61,7 +65,7 @@ const Header = () => {
             </nav>
             {open && (
               <nav className="absolute top-[70px] right-0 z-20 flex flex-col items-center w-full bg-white lg:flex-row lg:w-auto lg:static">
-                {ROUTES.map((item, index) => (
+                {removeCatalogo.map((item, index) => (
                   <NavLink
                     key={index}
                     to={item.path}
