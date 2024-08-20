@@ -1,3 +1,4 @@
+import Button from '@/components/Common/Button'
 import { ROUTES } from '@/routes'
 import React, { useState } from 'react'
 import { BiLogoInstagram, BiLogoWhatsapp, BiMenu, BiPhone } from 'react-icons/bi'
@@ -62,6 +63,11 @@ const Header = () => {
                   {item.name}
                 </NavLink>
               ))}
+              <div className="flex w-[120px] ml-10">
+                <a href="mailto:jetrix1993@gmail.com?subject=Enviar%20CV&body=Adjunto%20mi%20CV%20para%20su%20consideración.">
+                  <Button>Enviar CV</Button>
+                </a>
+              </div>
             </nav>
             {open && (
               <nav className="absolute top-[70px] right-0 z-20 flex flex-col items-center w-full bg-white lg:flex-row lg:w-auto lg:static">

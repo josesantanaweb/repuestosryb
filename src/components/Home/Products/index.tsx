@@ -79,12 +79,17 @@ const Products = () => {
   return (
     <div className="w-full bg-white py-14" id="catalogo">
       <div className="container">
-        <div className="flex flex-col items-start justify-between mb-10 lg:flex-row">
+        <div className="flex flex-col justify-between mb-10 lg:items-start lg:flex-row">
           <div className="flex flex-col items-center justify-center gap-4 mb-10 lg:justify-start">
             <h4 className="text-2xl text-center uppercase lg:text-left">
               Conoce Nuestros <span className="font-semibold">Productos</span>
             </h4>
             <span className="w-14 h-0.5 bg-secondary"></span>
+          </div>
+          <div className="flex items-center justify-center my-5 lg:my-0">
+            <p className="text-[0.875rem] lg:text-[1.2rem] text-center">
+              Nuestra garantía respalda cada pieza que distribuimos.
+            </p>
           </div>
           <div className="flex items-center justify-center w-full gap-4 lg:gap-8 lg:justify-start lg:w-auto">
             {TABS.map((tab) => (

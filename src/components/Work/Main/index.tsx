@@ -8,7 +8,7 @@ const Main = () => {
         <h1 className="text-[2rem] lg:text-[3rem] text-secondary text-center font-bold font-kanit opacity-15 leading-9 mb-6 lg:mb-0">
           ¿QUIERES FORMAR PARTE DE NUESTRO EQUIPO?
         </h1>
-        <h1 className="text-[1.5rem] lg:text-[2rem] text-primary italic text-center font-semibold font-kanit mb-8 drop-shadow-[0_4px_4px_rgba(1,44,114,0.20)]">
+        <h1 className="text-[1.5rem] lg:text-[2rem] text-primary italic text-center font-semibold font-kanit mb-8">
           REPUESTOS D&B
         </h1>
         <p className="text-[1.125rem] text-black">
