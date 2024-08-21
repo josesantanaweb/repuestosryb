@@ -83,7 +83,7 @@ const Header = () => {
                   </NavLink>
                 ))}
                 <div className="flex justify-center w-full py-5">
-                  <a href="mailto:jetrix1993@gmail.com?subject=Enviar%20CV&body=Adjunto%20mi%20CV%20para%20su%20consideración.">
+                  <a href="mailto:oficina@repuestosdybca.com?subject=Enviar%20CV&body=Adjunto%20mi%20CV%20para%20su%20consideración.">
                     <Button>Enviar CV</Button>
                   </a>
                 </div>
