@@ -11,7 +11,7 @@ interface ProductProps {
     name: string
     code: string[]
     brand: string
-    tag?: string[]
+    tag?: any
     imageSize?: string
   }
 }
