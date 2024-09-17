@@ -72,7 +72,7 @@ export const PRODUCTS = [
     code: ['15854941'],
     brand: 'ACDELCO',
     imageSize: '80%',
-    tag: ['Nuevo', 'Vendidos'],
+    tag: ['Vendidos'],
   },
   {
     id: 10,
@@ -258,7 +258,7 @@ export const PRODUCTS = [
     code: ['BKR6EGP'],
     brand: 'NGK',
     imageSize: '70%',
-    tag: ['Nuevo', 'Vendidos'],
+    tag: ['Vendidos'],
   },
   {
     id: 33,
@@ -912,6 +912,7 @@ export const PRODUCTS = [
     code: ['96408151'],
     brand: 'GM',
     imageSize: '80%',
+    tag: ['Nuevo'],
   },
   {
     id: 114,
@@ -992,6 +993,7 @@ export const PRODUCTS = [
     code: ['96536526'],
     brand: 'GM',
     imageSize: '80%',
+    tag: ['Nuevo'],
   },
   {
     id: 124,
@@ -1000,7 +1002,7 @@ export const PRODUCTS = [
     code: ['2S65-8005-AB'],
     brand: 'FORD',
     imageSize: '80%',
-    tag: ['Nuevo', 'Vendidos'],
+    tag: ['Vendidos'],
   },
   {
     id: 125,
@@ -1017,6 +1019,7 @@ export const PRODUCTS = [
     code: ['GM-2190'],
     brand: 'GM',
     imageSize: '80%',
+    tag: ['Nuevo'],
   },
   {
     id: 127,
@@ -1145,7 +1148,7 @@ export const PRODUCTS = [
     code: ['12569240'],
     brand: 'GM',
     imageSize: '80%',
-    tag: ['Nuevo', 'Vendidos'],
+    tag: ['Vendidos'],
   },
   {
     id: 143,
@@ -1497,6 +1500,7 @@ export const PRODUCTS = [
     code: ['25812725'],
     brand: 'GM',
     imageSize: '80%',
+    tag: ['Nuevo'],
   },
   {
     id: 186,
@@ -1723,7 +1727,7 @@ export const PRODUCTS = [
     code: ['96494422'],
     brand: 'GM',
     imageSize: '80%',
-    tag: ['Nuevo', 'Vendidos'],
+    tag: ['Vendidos'],
   },
   {
     id: 214,
@@ -1748,7 +1752,7 @@ export const PRODUCTS = [
     code: ['90409974'],
     brand: 'GM',
     imageSize: '80%',
-    tag: ['Nuevo', 'Vendidos'],
+    tag: ['Vendidos'],
   },
   {
     id: 217,
@@ -1765,6 +1769,7 @@ export const PRODUCTS = [
     code: ['96540153'],
     brand: 'GM',
     imageSize: '80%',
+    tag: ['Nuevo'],
   },
   {
     id: 219,
@@ -1773,6 +1778,7 @@ export const PRODUCTS = [
     code: ['93291770'],
     brand: 'GM',
     imageSize: '80%',
+    tag: ['Nuevo'],
   },
   {
     id: 220,
