@@ -28,8 +28,8 @@ const Main = () => {
   return (
     <main className="main">
       <div className="banner"></div>
-      <div className="relative z-10 flex flex-col items-center justify-center py-10 lg:py-0">
-        <img src="/images/logo.svg" alt="logo" className="w-[12rem] lg:w-[26rem] mb-5 lg:mb-20" />
+      <div className="relative z-10 flex flex-col items-center justify-center py-10 lg:py-0 lg:-mt-[100px] 2xl:mt-0">
+        <img src="/images/logo.svg" alt="logo" className="w-[12rem] lg:w-[26rem] mb-5 lg:mb-10 2xl:mb-20" />
         <h1 className="text-[1.5rem] lg:text-[2.5rem] text-secondary uppercase text-center font-bold font-kanit italic mb-5">
           ¡Somos tu mayorista de confianza!
         </h1>

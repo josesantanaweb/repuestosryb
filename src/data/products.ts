@@ -5,7 +5,6 @@ export const PRODUCTS = [
     name: 'Amortiguador PARA Aveo (DER - IZQ)',
     code: ['333417 Derecho', '333418 Izquierdo'],
     brand: 'A3POINT',
-    tag: 'Nuevo',
     imageSize: '80%',
   },
   {
@@ -73,6 +72,7 @@ export const PRODUCTS = [
     code: ['15854941'],
     brand: 'ACDELCO',
     imageSize: '80%',
+    tag: ['Vendidos'],
   },
   {
     id: 10,
@@ -193,6 +193,7 @@ export const PRODUCTS = [
     code: ['2S65-2140-CA'],
     brand: 'FORD',
     imageSize: '80%',
+    tag: ['Promo'],
   },
   {
     id: 25,
@@ -257,6 +258,7 @@ export const PRODUCTS = [
     code: ['BKR6EGP'],
     brand: 'NGK',
     imageSize: '70%',
+    tag: ['Vendidos'],
   },
   {
     id: 33,
@@ -465,6 +467,7 @@ export const PRODUCTS = [
     code: ['1S7G-6K260-AA'],
     brand: 'FORD',
     imageSize: '80%',
+    tag: ['Promo'],
   },
   {
     id: 59,
@@ -545,6 +548,7 @@ export const PRODUCTS = [
     code: ['2S6G-6051-A2B'],
     brand: 'FORD',
     imageSize: '80%',
+    tag: ['Nuevo', 'Vendidos'],
   },
   {
     id: 69,
@@ -657,6 +661,7 @@ export const PRODUCTS = [
     code: ['94580413'],
     brand: 'SABO',
     imageSize: '80%',
+    tag: ['Nuevo', 'Vendidos'],
   },
   {
     id: 83,
@@ -729,6 +734,7 @@ export const PRODUCTS = [
     code: ['FG-986B'],
     brand: 'MOTORCRAFT',
     imageSize: '80%',
+    tag: ['Promo'],
   },
   {
     id: 92,
@@ -817,6 +823,7 @@ export const PRODUCTS = [
     code: ['TK-76080'],
     brand: 'FORD',
     imageSize: '80%',
+    tag: ['Promo'],
   },
   {
     id: 103,
@@ -905,6 +912,7 @@ export const PRODUCTS = [
     code: ['96408151'],
     brand: 'GM',
     imageSize: '80%',
+    tag: ['Nuevo'],
   },
   {
     id: 114,
@@ -985,6 +993,7 @@ export const PRODUCTS = [
     code: ['96536526'],
     brand: 'GM',
     imageSize: '80%',
+    tag: ['Nuevo'],
   },
   {
     id: 124,
@@ -993,6 +1002,7 @@ export const PRODUCTS = [
     code: ['2S65-8005-AB'],
     brand: 'FORD',
     imageSize: '80%',
+    tag: ['Vendidos'],
   },
   {
     id: 125,
@@ -1009,6 +1019,7 @@ export const PRODUCTS = [
     code: ['GM-2190'],
     brand: 'GM',
     imageSize: '80%',
+    tag: ['Nuevo'],
   },
   {
     id: 127,
@@ -1137,6 +1148,7 @@ export const PRODUCTS = [
     code: ['12569240'],
     brand: 'GM',
     imageSize: '80%',
+    tag: ['Vendidos'],
   },
   {
     id: 143,
@@ -1185,6 +1197,7 @@ export const PRODUCTS = [
     code: ['12591720'],
     brand: 'ACDELCO',
     imageSize: '80%',
+    tag: ['Promo'],
   },
   {
     id: 149,
@@ -1193,6 +1206,7 @@ export const PRODUCTS = [
     code: ['96253542'],
     brand: 'KOREA',
     imageSize: '80%',
+    tag: ['Promo'],
   },
   {
     id: 150,
@@ -1233,6 +1247,7 @@ export const PRODUCTS = [
     code: ['2S65-8100-AA'],
     brand: 'FORD',
     imageSize: '80%',
+    tag: ['Promo'],
   },
   {
     id: 155,
@@ -1257,6 +1272,7 @@ export const PRODUCTS = [
     code: ['25192208'],
     brand: 'GM',
     imageSize: '80%',
+    tag: ['Promo'],
   },
   {
     id: 158,
@@ -1273,6 +1289,7 @@ export const PRODUCTS = [
     code: ['XS6E-6C501-AC'],
     brand: 'FORD',
     imageSize: '80%',
+    tag: ['Nuevo', 'Vendidos'],
   },
   {
     id: 160,
@@ -1425,6 +1442,7 @@ export const PRODUCTS = [
     code: ['2L2Z-5K483'],
     brand: 'FORD',
     imageSize: '30%',
+    tag: ['Promo'],
   },
   {
     id: 179,
@@ -1465,6 +1483,7 @@ export const PRODUCTS = [
     code: ['96535082 (LH)', '96535081 (RH)'],
     brand: 'GM',
     imageSize: '80%',
+    tag: ['Nuevo', 'Vendidos'],
   },
   {
     id: 184,
@@ -1481,6 +1500,7 @@ export const PRODUCTS = [
     code: ['25812725'],
     brand: 'GM',
     imageSize: '80%',
+    tag: ['Nuevo'],
   },
   {
     id: 186,
@@ -1601,6 +1621,7 @@ export const PRODUCTS = [
     code: ['93740722 (LH)', '93740723 (RH)'],
     brand: '93740722',
     imageSize: '80%',
+    tag: ['Promo'],
   },
   {
     id: 201,
@@ -1609,6 +1630,7 @@ export const PRODUCTS = [
     code: ['75553290AA (RH)', '75553289AA (LH)'],
     brand: 'FORD',
     imageSize: '80%',
+    tag: ['Promo'],
   },
   {
     id: 202,
@@ -1705,6 +1727,7 @@ export const PRODUCTS = [
     code: ['96494422'],
     brand: 'GM',
     imageSize: '80%',
+    tag: ['Vendidos'],
   },
   {
     id: 214,
@@ -1729,6 +1752,7 @@ export const PRODUCTS = [
     code: ['90409974'],
     brand: 'GM',
     imageSize: '80%',
+    tag: ['Vendidos'],
   },
   {
     id: 217,
@@ -1745,6 +1769,7 @@ export const PRODUCTS = [
     code: ['96540153'],
     brand: 'GM',
     imageSize: '80%',
+    tag: ['Nuevo'],
   },
   {
     id: 219,
@@ -1753,6 +1778,7 @@ export const PRODUCTS = [
     code: ['93291770'],
     brand: 'GM',
     imageSize: '80%',
+    tag: ['Nuevo'],
   },
   {
     id: 220,
@@ -1833,5 +1859,6 @@ export const PRODUCTS = [
     code: ['7S4Q-10K018-A'],
     brand: 'FORD',
     imageSize: '80%',
+    tag: ['Promo'],
   },
 ]

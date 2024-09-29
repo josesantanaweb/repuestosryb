@@ -2,7 +2,7 @@ import Skeleton from '@/components/Common/Skeleton'
 import { PRODUCTS } from '@/data/products'
 import { useEffect, useState } from 'react'
 
-const TABS = ['Todos', 'Nuevos', 'Mas Vendidos', 'Ofertas']
+const TABS = ['Todos', 'Nuevos', 'Mas Vendidos', 'Promo']
 
 interface ProductProps {
   product: {
@@ -11,7 +11,7 @@ interface ProductProps {
     name: string
     code: string[]
     brand: string
-    tag?: string
+    tag?: any
     imageSize?: string
   }
 }
@@ -22,7 +22,7 @@ const Product = ({ product }: ProductProps) => {
       {product.tag && (
         <span
           className={`px-2 py-1 text-xs text-white rounded-full max-w-[60px] text-center absolute z-20 top-3 left-3 ${
-            product.tag === 'Nuevo' ? 'bg-primary' : 'bg-secondary'
+            product.tag.includes('Nuevo') ? 'bg-primary' : 'bg-secondary'
           }`}
         >
           {product.tag ?? ''}
@@ -66,13 +66,13 @@ const Products = () => {
       setProducts(PRODUCTS)
     }
     if (tabActive === 'Nuevos') {
-      setProducts(PRODUCTS.filter((product) => product.image === '96423299'))
+      setProducts(PRODUCTS.filter((product) => product.tag?.includes('Nuevo')))
     }
     if (tabActive === 'Mas Vendidos') {
-      setProducts(PRODUCTS.filter((product) => product.image === '93745940'))
+      setProducts(PRODUCTS.filter((product) => product.tag?.includes('Vendidos')))
     }
-    if (tabActive === 'Ofertas') {
-      setProducts(PRODUCTS.filter((product) => product.image === '96874571'))
+    if (tabActive === 'Promo') {
+      setProducts(PRODUCTS.filter((product) => product.tag?.includes('Promo')))
     }
   }, [tabActive])
 
