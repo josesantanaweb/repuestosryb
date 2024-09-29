@@ -3,7 +3,7 @@ import { ROUTES } from '@/routes'
 import React, { useState } from 'react'
 import { BiLogoInstagram, BiLogoWhatsapp, BiMenu, BiPhone } from 'react-icons/bi'
 
-import { NavLink as RouterNavLink, useLocation, useNavigate } from 'react-router-dom'
+import { Link, NavLink as RouterNavLink, useLocation, useNavigate } from 'react-router-dom'
 
 interface NavLinkProps {
   to: string
@@ -91,15 +91,15 @@ const Header = () => {
             )}
           </div>
           <div className="items-center hidden gap-5 lg:flex">
-            <span className="text-primary">
+            <Link to="https://www.instagram.com/repuestosdyb?igsh=eXcwZTY3eDlpOWtq" className="text-primary">
               <BiLogoInstagram size={24} />
-            </span>
+            </Link>
             <span className="text-primary">
               <BiLogoWhatsapp size={24} />
             </span>
-            <span className="text-primary">
+            <Link className="text-primary" to="tel:04144016071">
               <BiPhone size={24} />
-            </span>
+            </Link>
           </div>
         </div>
       </div>
